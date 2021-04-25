@@ -4,8 +4,13 @@
             "PC",
             "Foe"
         ],
-        "templates": {
-
+        "PC": {
+            "drive": "",
+            "occupation": "",
+            "occupationalBenefits": "",
+            "background": "",
+            "pillars": "",
+            "equipment": ""
         }
     },
     "Item":{
@@ -20,6 +25,11 @@
                 "type": "",
                 "rating": "",
                 "pool": ""
+            },
+            "card": {
+                "name": "",
+                "tags": "",
+                "description": ""
             }
         },
         "GeneralAbility": {
@@ -30,10 +40,7 @@
             "hasRating": ""
         },
         "Card": {
-            "name": "",
-            "type": "",
-            "tags": "",
-            "description": ""
+            "templates": ["card"]
         }
     }
 }
