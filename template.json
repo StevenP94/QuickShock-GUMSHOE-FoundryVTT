@@ -1,0 +1,39 @@
+{
+    "Actor":{
+        "types": [
+            "PC",
+            "Foe"
+        ],
+        "templates": {
+
+        }
+    },
+    "Item":{
+        "types": [
+            "GeneralAbility",
+            "InvestigativeAbility",
+            "Card"
+        ],
+        "templates": {
+            "ability": {
+                "name": "",
+                "type": "",
+                "rating": "",
+                "pool": ""
+            }
+        },
+        "GeneralAbility": {
+            "templates": ["ability"]
+        },
+        "InvestigativeAbility": {
+            "templates": ["ability"],
+            "hasRating": ""
+        },
+        "Card": {
+            "name": "",
+            "type": "",
+            "tags": "",
+            "description": ""
+        }
+    }
+}

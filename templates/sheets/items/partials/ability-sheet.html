@@ -1,0 +1,39 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{ localize "qsgs.category"}}</th>
+                <td>
+                    <select name="data.type">
+                        {{#select data.type}}
+                        {{#each abilityType as |name type|}}
+                        <option value="{{type}}"> {{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+            </tr>
+            <!-- <tr>
+                <th>{{ localize "qsgs.ability-attr.hasrating"}}</th>
+                <td>
+                    <input name="data.hasrating" type="checkbox" {{ checked data.hasrating }}></input>
+                </td>
+            </tr> -->
+            <tr>
+                <th>{{ localize "qsgs.ability-attr.pool"}}</th>
+                <td>
+                    <input name="data.pool" type="text" value="{{data.pool}}" data-dtype="Number"></input>
+                </td>
+            </tr>
+            <tr>
+                <th>{{ localize "qsgs.ability-attr.rating"}}</th>
+                <td>
+                    <input name="data.rating" type="text" value="{{data.rating}}" data-dtype="Number"></input>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

@@ -1,0 +1,31 @@
+{
+    "qsgs":{
+        "category": "Category",
+        "general-type": {
+            "presence": "Presence",
+            "focus": "Focus",
+            "physical": "Physical"
+        },
+        "investigative-type": {
+            "academic": "Academic",
+            "interpersonal": "Interpersonal",
+            "technical": "Technical"
+        },
+        "ability-attr": {
+            "hasrating": "Has Rating?",
+            "rating": "Rating",
+            "pool": "Pool"
+        },
+        "card": {
+            "type": {
+                "type": "Type",
+                "injury": "Injury",
+                "shock": "Shock",
+                "combo": "Combo"
+            },
+            "tags": "Tags",
+            "desc": "Description"
+        }
+
+    }
+}

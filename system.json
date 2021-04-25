@@ -1,0 +1,29 @@
+{
+    "name": "qsgs",
+    "title": "QuickShock GUMSHOE",
+    "description": "A system for playing QuickShock GUMSHOE",
+    "author": "Ammar Nanjiani",
+    "version": 0.01,
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCore Version": "0.7.9",
+    "esmodules": [
+        "qsgs.js"
+    ],
+    "styles": [
+        "qsgs.css"
+    ],
+    "packs": [
+
+    ],
+    "languages":[
+        {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+        }
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "health",
+    "initiative": "@combatSpend"
+}

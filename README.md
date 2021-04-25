@@ -1,0 +1,1 @@
+Foundry VTT System to run QuickShock GUMSHOE using the rules from the SRD.
