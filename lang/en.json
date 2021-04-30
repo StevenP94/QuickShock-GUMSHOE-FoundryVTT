@@ -25,6 +25,19 @@
             },
             "tags": "Tags",
             "desc": "Description"
+        },
+        "char-sheet": {
+            "name": "Name",
+            "drive": "Drive",
+            "occupation": "Occupation",
+            "occupationalBenefits": "Occupational Benefits",
+            "pillars": "Pillars of Sanity",
+            "background": "Background",
+            "equipment": "Equipment",
+            "injuries": "Injuries",
+            "shocks": "Shocks",
+            "invTitle": "Investigative Abilities",
+            "genTitle": "General Abilities"
         }
 
     }

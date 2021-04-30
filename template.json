@@ -5,6 +5,7 @@
             "Foe"
         ],
         "PC": {
+            "name": "",
             "drive": "",
             "occupation": "",
             "occupationalBenefits": "",
@@ -28,6 +29,7 @@
             },
             "card": {
                 "name": "",
+                "type": "",
                 "tags": "",
                 "description": ""
             }

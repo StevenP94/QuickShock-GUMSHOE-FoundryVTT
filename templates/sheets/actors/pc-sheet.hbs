@@ -1,8 +1,96 @@
 <form class="{{cssClass}}" autocomplete="off">
-    hello
-    <section class="inv-ability-list">
-        {{#each invabilities}}
-            <p>{{name}}</p>
-        {{/each}}
+    <section class="page-structure" style="display: flex; align-content: stretch; flex-direction: row; justify-content: center">
+        <div style="">
+            <h1>{{localize "qsgs.char-sheet.injuries"}} </h1>
+            {{#each injuries}}
+                <h2>{{name}}</h2>
+                <p>{{data.tags}}</p>
+                {{{data.description}}}
+            {{/each}}
+        </div>
+        <div>
+            <section style="display: flex; align-content: stretch; flex-direction: row; justify-content: center">
+                <div style="flex-direction: column;">
+                    <div>
+                        {{localize "qsgs.char-sheet.name"}}
+                        <input name="data.name" type="text" value="{{item.name}}"></input>
+                    </div>
+                    <div>
+                        {{localize "qsgs.char-sheet.drive"}}
+                        <input name="data.drive" type="text" value="{{data.drive}}"></input>
+                    </div>
+                    <div>
+                        {{localize "qsgs.char-sheet.occupation"}}
+                        <input name="data.occupation" type="text" value="{{data.occupation}}"></input>
+                    </div>
+                    <div>
+                        {{localize "qsgs.char-sheet.occupationalBenefits"}}
+                        <textarea name="data.occupationalBenefits" type="text" value="{{data.occupationalBenefits}}"></textarea>
+                    </div>                         
+                </div>
+                <div><img src="{{actor.img}}" data-edit="img" title="{{actor.name}}"></div>
+            </section>
+            <section class="ability-list" style="display: flex; align-content: stretch;justify-content: center">
+                <div style="padding: 30px;">
+                    <h1>{{localize "qsgs.char-sheet.invTitle"}}</h1>
+                    <div style="display: flex; align-content: stretch; flex-direction: row; justify-content: center">
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.investigative-type.academic"}}</h2>
+                            {{#each academic}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.investigative-type.technical"}}</h2>
+                            {{#each technical}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.investigative-type.interpersonal"}}</h2>
+                            {{#each interpersonal}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+
+                    </div>
+                </div>
+                <div style="padding: 30px;">
+                    <h1>{{localize "qsgs.char-sheet.genTitle"}}</h1>
+                    <div style="display: flex; align-content: stretch; flex-direction: row; justify-content: center;">
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.general-type.presence"}}</h2>
+                            {{#each presence}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.general-type.focus"}}</h2>
+                            {{#each focus}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+                        <div style="padding: 5px;">
+                            <h2>{{localize "qsgs.general-type.physical"}}</h2>
+                            {{#each physical}}
+                                <p>{{name}}</p>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>{{localize "qsgs.char-sheet.pillars"}}</h1>
+                <textarea></textarea>
+            </section>
+        </div>
+        <div>
+            <h1>{{localize "qsgs.char-sheet.shocks"}} </h1>
+            {{#each shocks}}
+                <h2>{{name}}</h2>
+                <p>{{data.tags}}</p>
+                {{{data.description}}}
+            {{/each}}
+        </div>
     </section>
 </form>
