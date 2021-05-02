@@ -1,0 +1,49 @@
+<section class="ability-list" style="display: flex; align-content: stretch;justify-content: center">
+    <div style="padding: 30px;">
+        <h1>{{localize "qsgs.char-sheet.invTitle"}}</h1>
+        <div style="display: flex; align-content: stretch; flex-direction: row; justify-content: center">
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.investigative-type.academic"}}</h2>
+                {{#each academic}}
+                        {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
+                {{/each}}
+            </div>
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.investigative-type.technical"}}</h2>
+                {{#each technical}}
+                    {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
+                {{/each}}
+            </div>
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.investigative-type.interpersonal"}}</h2>
+                {{#each interpersonal}}
+                    {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
+                {{/each}}
+            </div>
+
+        </div>
+    </div>
+    <div style="padding: 30px;">
+        <h1>{{localize "qsgs.char-sheet.genTitle"}}</h1>
+        <div style="display: flex; align-content: stretch; flex-direction: row; justify-content: center;">
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.general-type.presence"}}</h2>
+                {{#each presence}}
+                    {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}} 
+                {{/each}}
+            </div>
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.general-type.focus"}}</h2>
+                {{#each focus}}
+                    {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
+                {{/each}}
+            </div>
+            <div style="padding: 5px;">
+                <h2>{{localize "qsgs.general-type.physical"}}</h2>
+                {{#each physical}}
+                    {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>

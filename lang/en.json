@@ -37,7 +37,8 @@
             "injuries": "Injuries",
             "shocks": "Shocks",
             "invTitle": "Investigative Abilities",
-            "genTitle": "General Abilities"
+            "genTitle": "General Abilities",
+            "pushes": "Pushes"
         }
 
     }

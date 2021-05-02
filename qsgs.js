@@ -6,7 +6,11 @@ async function loadHandleBarTemplates()
 {
   // register templates parts
   const templatePaths = [
-    "systems/qsgs/templates/sheets/items/partials/ability-sheet.hbs"
+    "systems/qsgs/templates/sheets/items/partials/ability-sheet.hbs",
+    "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs",
+    "systems/qsgs/templates/sheets/actors/partials/pc-info.hbs",
+    "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs",
+    "systems/qsgs/templates/sheets/actors/partials/pc-ability-page.hbs"
   ];
   return loadTemplates( templatePaths );
 }

@@ -1,0 +1,14 @@
+.qsgs.sheet.actor form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.qsgs.sheet.actor .sheet-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.qsgs.sheet.actor .sheet-content .editor {
+  height: 100%;
+}
