@@ -1,5 +1,14 @@
-<div>
-    <h2>{{name}}</h2>
-    <p>{{data.tags}}</p>
-    {{{data.description}}}
-</div>
+<h2>
+    {{#ifEquals data.type "injury"}}
+        <i class="fas fa-skull"></i>
+    {{/ifEquals}}
+    {{#ifEquals data.type "shock"}}
+        <i class="fas fa-bolt"></i>
+    {{/ifEquals}}
+        {{#ifEquals data.type "combo"}}
+        <i class="fas fa-star"></i>
+    {{/ifEquals}}
+    {{name}}
+</h2>
+<p>{{data.tags}}</p>
+{{{data.description}}}

@@ -1,0 +1,6 @@
+
+{  
+    "scripts": {
+        "gulp": "gulp default"
+    }
+}

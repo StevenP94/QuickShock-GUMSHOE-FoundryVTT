@@ -1,9 +1,13 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
-    <section class="page-structure" style="display: flex; align-content: stretch; flex-direction: row; justify-content: center">
-        <div>
+    <section class="page-structure">
+        <div style="margin-right: 10px;">
             <h1>{{localize "qsgs.char-sheet.injuries"}} </h1>
             {{#each injuries}}
-                {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
+                <div class="card item" data-item-id="{{_id}}"> 
+                    <a class="item-roll">
+                    {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
+                    </a>
+                </div>
             {{/each}}
         </div>
         <div>
@@ -19,10 +23,14 @@
                 <textarea></textarea>
             </section>
         </div>
-        <div>
+        <div style="margin-left: 10px;">
             <h1>{{localize "qsgs.char-sheet.shocks"}} </h1>
             {{#each shocks}}
-                {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
+                <div class="card item" data-item-id="{{_id}}"> 
+                    <a class="item-roll">
+                    {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
+                    </a>
+                </div>
             {{/each}}
         </div>
     </section>

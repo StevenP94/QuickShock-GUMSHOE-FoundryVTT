@@ -38,7 +38,10 @@
             "shocks": "Shocks",
             "invTitle": "Investigative Abilities",
             "genTitle": "General Abilities",
-            "pushes": "Pushes"
+            "pushes": "Pushes",
+            "abilities": "Abilities",
+            "other": "Other",
+            "addInv": "Add Investigative Ability"
         }
 
     }

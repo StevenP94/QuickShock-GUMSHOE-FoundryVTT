@@ -1,4 +1,5 @@
 import {qsgs} from "./module/config.js";
+import QSGSItem from "./module/QSGSItem.js";
 import QSGSItemSheet from "./module/sheets/QSGSItemSheet.js";
 import QSGSCharSheet from "./module/sheets/QSGSCharSheet.js";
 
@@ -21,10 +22,15 @@ Hooks.once("init", function() {
     loadHandleBarTemplates();
 
     CONFIG.qsgs= qsgs;
+    CONFIG.Item.entityClass = QSGSItem;
 
     Items.unregisterSheet("core", ItemSheet)
     Items.registerSheet("quickshock-gumshoe", QSGSItemSheet, { makeDefault: true});
 
     Actors.unregisterSheet("core", ItemSheet)
     Actors.registerSheet("quickshock-gumshoe", QSGSCharSheet, { makeDefault: true});
+
+    Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+      return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+  });
 });

@@ -6,11 +6,12 @@ gulp.task('less', function (cb) {
         .src('less/qsgs.less')
         .pipe(less())
         .pipe(gulp.dest("./"));
+    cb();
 });
 
 gulp.task(
     'default',
-    gulp.series('less', function(cb) {
+    gulp.series('less', async function(cb) {
         gulp.watch('less/*.less', gulp.series('less'));
         cb();
     })
