@@ -4,7 +4,7 @@
             <h1>{{localize "qsgs.char-sheet.injuries"}} </h1>
             {{#each injuries}}
                 <div class="card item" data-item-id="{{_id}}"> 
-                    <a class="item-roll">
+                    <a class="item-roll item-context" data-item-id="{{_id}}">
                     {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
                     </a>
                 </div>
@@ -27,7 +27,7 @@
             <h1>{{localize "qsgs.char-sheet.shocks"}} </h1>
             {{#each shocks}}
                 <div class="card item" data-item-id="{{_id}}"> 
-                    <a class="item-roll">
+                    <a class="item-roll item-context" data-item-id="{{_id}}">
                     {{> "systems/qsgs/templates/sheets/actors/partials/card-sheet.hbs"}}
                     </a>
                 </div>

@@ -1,8 +1,10 @@
+import * as Dice from "../dice.js";
+
 export default class QSGSCharSheet extends ActorSheet {
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            width: 1000,
+            width: 1200,
             height: 1000,
             classes: ["qsgs", "sheet", "pc"],
             tabs: [{navSelector: ".tabs", contentSelector: ".content", initial: "abilities"}]
@@ -23,6 +25,58 @@ export default class QSGSCharSheet extends ActorSheet {
             icon: '<i class="fas fa-trash"></i>',
             callback: element => {
                 this.actor.deleteOwnedItem(element.data("item-id"))
+            }
+        },
+        {
+            name: "Refresh",
+            icon: '<i class="fas fa-redo"></i>',
+            condition: element => {
+                const item = this.actor.getOwnedItem(element.data("item-id"));
+                return item.type != "Card" && item.data.data.pool < item.data.data.rating;
+            },
+            callback: element => {
+                const item = this.actor.getOwnedItem(element.data("item-id"));
+                console.log(item);
+                let updateObject = { data: {pool: item.data.data.rating}};
+                item.update(updateObject);
+            }
+        },
+        {
+            name: "Whew",
+            icon: '<i class="fas fa-wind"></i>',
+            condition: element => {
+                const item = this.actor.getOwnedItem(element.data("item-id"));
+                return item.type != "Card" && item.data.data.pool < item.data.data.rating;
+            },
+            callback: element => {
+                const item = this.actor.getOwnedItem(element.data("item-id"));
+                console.log(item);
+                let newPool = Math.min(item.data.data.pool + 2, item.data.data.rating);
+
+                item.update({ data: {pool: newPool}});
+            }
+        }
+    ]
+
+    catRefreshMenu = [
+        {
+            name: "Refresh",
+            icon: '<i class="fas fa-redo"></i>',
+            callback: element => {
+                const catType = element.data("category");
+                console.log(catType);
+                let abilitiesToRefresh = []
+                if(catType == "investigative")
+                    abilitiesToRefresh = this.object.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.data.type && item.data.data.rating > 0 && item.data.data.rating > item.data.data.pool});
+                else if(catType == "general")
+                    abilitiesToRefresh = this.object.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.data.type && item.data.data.rating > 0 && item.data.data.rating > item.data.data.pool});
+                else if(catType)
+                    abilitiesToRefresh = this.object.items.filter(function(item) {return item.data.data.type == catType && item.data.data.rating > 0 && item.data.data.rating > item.data.data.pool});
+                
+                abilitiesToRefresh.forEach(a => {
+                    let updateObject = { data: {pool: a.data.data.rating}};
+                    a.update(updateObject);
+                });
             }
         }
     ]
@@ -49,18 +103,21 @@ export default class QSGSCharSheet extends ActorSheet {
         return data
     }
 
+
     activateListeners(html) {
         if (this.isEditable) {
             html.find(".item-create").click(this._onItemCreate.bind(this));
             html.find(".item-edit").click(this._onItemEdit.bind(this));
             //tabs: [{navSelector: ".tabs", contentSelector: ".content", initial: "abilities"}]
 
-            new ContextMenu(html, ".ability-card", this.itemContextMenu);
+            new ContextMenu(html, ".item-context", this.itemContextMenu);
+            new ContextMenu(html, ".category-refresh", this.catRefreshMenu);
         }
         
         //Owner-only listeners
         if (this.actor.owner) {
             html.find(".item-roll").click(this._onItemRoll.bind(this));
+            html.find(".spend").click(this._onSpend.bind(this));
         }
         super.activateListeners(html);
     }
@@ -71,6 +128,51 @@ export default class QSGSCharSheet extends ActorSheet {
         const item = this.actor.getOwnedItem(itemID);
 
         item.roll();
+    }
+
+    async _onSpend(event) {
+        const itemID = event.currentTarget.closest(".item").dataset.itemId;
+        const item = this.actor.getOwnedItem(itemID);
+        const abilityPool = item.data.data.pool;
+
+        let messageData = {
+            speaker: ChatMessage.getSpeaker(),
+            flavor: item.name
+        }
+
+        if(item.type == "InvestigativeAbility" && abilityPool > 0) {
+            let updateObject = { data: {pool: abilityPool - 1}};
+            item.update(updateObject);
+
+            new Roll("1").roll().toMessage(messageData);
+        }
+        else if(item.type == "GeneralAbility") {
+            if(item.data.data.rating == 0 || item.data.data.rating == null)
+                new Roll("1d6 - 2").roll().toMessage(messageData);
+            else if(abilityPool == 0){
+                new Roll("1d6").toMessage(messageData);
+            }
+            else
+            {
+                let spendOptions = await Dice.GetSpendOptions();
+                let rollFormula = ""
+                const points = spendOptions.points
+                if(abilityPool - points >= 0)
+                {
+                    if(spendOptions.type == "roll")
+                        rollFormula = "1d6 + @points";
+                    else if(spendOptions.type == "spend")
+                        rollFormula = "@points"
+
+                    let updateObject = {data: {pool: item.data.data.pool - points}};
+                    item.update(updateObject);
+                    
+                    new Roll(rollFormula, {points: points}).toMessage(messageData);
+                }
+            }
+
+        }
+
     }
 
     _onItemCreate(event) {

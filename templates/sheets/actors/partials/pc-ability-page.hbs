@@ -6,11 +6,11 @@
     <a class="item" data-tab="other">{{localize "qsgs.char-sheet.other"}}</a>
 </nav>
 
-<section class="content">
+<section class="content" style="width: 900px">
     <div class="tab" data-group="primary" data-tab="abilities">
         <section class="ability-categories">
             <div style="padding: 30px;">
-                <h1>
+                <h1 class="category-refresh" data-category="investigative">
                     {{localize "qsgs.char-sheet.invTitle"}}
                     <a class="item-create" data-type="InvestigativeAbility">
                         <i class="fas fa-search" title="{{localize "qsgs.char-sheet.addInv"}}"></i>
@@ -18,7 +18,7 @@
                 </h1>
                 <div class="ability-list">
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="academic">
                             {{localize "qsgs.investigative-type.academic"}}
                             <i class="fas fa-book-open"></i>
                         </h2>
@@ -27,7 +27,7 @@
                         {{/each}}
                     </div>
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="technical">
                             {{localize "qsgs.investigative-type.technical"}}
                             <i class="fas fa-wrench"></i>
                         </h2>
@@ -36,7 +36,7 @@
                         {{/each}}
                     </div>
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="interpersonal">
                             {{localize "qsgs.investigative-type.interpersonal"}}
                             <i class="fas fa-comments"></i>
                         </h2>
@@ -48,10 +48,12 @@
                 </div>
             </div>
             <div style="padding: 30px;">
-                <h1>{{localize "qsgs.char-sheet.genTitle"}}</h1>
+                <h1 class="category-refresh" data-category="general">
+                    {{localize "qsgs.char-sheet.genTitle"}}
+                </h1>
                 <div class="ability-list">
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="presence">
                             {{localize "qsgs.general-type.presence"}}
                             <i class="fas fa-brain"></i>
                         </h2>                        
@@ -60,7 +62,7 @@
                         {{/each}}
                     </div>
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="focus"> 
                             {{localize "qsgs.general-type.focus"}}
                             <i class="fas fa-assistive-listening-systems"></i>
                         </h2>
@@ -69,7 +71,7 @@
                         {{/each}}
                     </div>
                     <div style="padding: 5px;">
-                        <h2>
+                        <h2 class="category-refresh" data-category="physical">
                             {{localize "qsgs.general-type.physical"}}
                             <i class="fas fa-heartbeat"></i>
                         </h2>
