@@ -4,12 +4,13 @@ export default class QSGSCharSheet extends ActorSheet {
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            width: 1200,
+            width: 1400,
             height: 1000,
             classes: ["qsgs", "sheet", "pc"],
             tabs: [{navSelector: ".tabs", contentSelector: ".content", initial: "abilities"}]
         });
     }
+
 
     itemContextMenu = [
         {
@@ -89,13 +90,13 @@ export default class QSGSCharSheet extends ActorSheet {
         const data = super.getData();
         data.config = CONFIG.qsgs;
 
-        data.academic = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "academic"});
-        data.technical = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "technical"});
-        data.interpersonal = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "interpersonal"});
+        data.academic = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "academic"}).sort((a, b) => a.name > b.name && 1 || -1);
+        data.technical = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "technical"}).sort((a, b) => a.name > b.name && 1 || -1);
+        data.interpersonal = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "interpersonal"}).sort((a, b) => a.name > b.name && 1 || -1);
 
-        data.presence = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "presence"});
-        data.focus = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"});
-        data.physical = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"});
+        data.presence = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "presence"}).sort((a, b) => a.name > b.name && 1 || -1);
+        data.focus = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"}).sort((a, b) => a.name > b.name && 1 || -1);
+        data.physical = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"}).sort((a, b) => a.name > b.name && 1 || -1);
 
         data.injuries = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "injury" || item.data.type == "combo")});
         data.shocks = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "shock" || item.data.type == "combo")});
@@ -106,7 +107,7 @@ export default class QSGSCharSheet extends ActorSheet {
 
     activateListeners(html) {
         if (this.isEditable) {
-            html.find(".item-create").click(this._onItemCreate.bind(this));
+            // html.find(".item-create").click(this._onItemCreate.bind(this));
             html.find(".item-edit").click(this._onItemEdit.bind(this));
             //tabs: [{navSelector: ".tabs", contentSelector: ".content", initial: "abilities"}]
 
@@ -136,7 +137,7 @@ export default class QSGSCharSheet extends ActorSheet {
         const abilityPool = item.data.data.pool;
 
         let messageData = {
-            speaker: ChatMessage.getSpeaker(),
+            speaker: ChatMessage.getSpeaker({actor: this}),
             flavor: item.name
         }
 
@@ -175,17 +176,17 @@ export default class QSGSCharSheet extends ActorSheet {
 
     }
 
-    _onItemCreate(event) {
-        event.preventDefault();
-        let element = event.currentTarget;
+    // _onItemCreate(event) {
+    //     event.preventDefault();
+    //     let element = event.currentTarget;
 
-        let itemData = {
-            name: "new item", //TODO: Localize. game.i18n.localize("")
-            type: element.dataset.type
-        };
+    //     let itemData = {
+    //         name: "new item", //TODO: Localize. game.i18n.localize("")
+    //         type: element.dataset.type
+    //     };
 
-        return this.actor.createOwnedItem(itemData);
-    }
+    //     return this.actor.createOwnedItem(itemData);
+    // }
 
     _onItemEdit(event) {
         event.preventDefault();

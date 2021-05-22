@@ -14,6 +14,9 @@ export default class QSGSItemSheet extends ItemSheet {
     getData() {
         const data = super.getData();
 
+        if(this.item.data.type == "Card"){
+            console.log(data);
+        }
         data.config = CONFIG.qsgs;
 
         return data;

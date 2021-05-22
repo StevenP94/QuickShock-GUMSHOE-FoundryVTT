@@ -35,11 +35,11 @@
             }
         },
         "GeneralAbility": {
-            "templates": ["ability"]
+            "templates": ["ability"],
+            "canBeInvestigative": "y"
         },
         "InvestigativeAbility": {
-            "templates": ["ability"],
-            "hasRating": ""
+            "templates": ["ability"]
         },
         "Card": {
             "templates": ["card"]

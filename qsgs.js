@@ -34,3 +34,13 @@ Hooks.once("init", function() {
       return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
   });
 });
+
+Hooks.on("createActor", async function(actor) {
+  const pack = game.packs.get("qsgs.tocgenabilities");
+  const content = await pack.getContent();
+  const created = await actor.createEmbeddedEntity("OwnedItem", content);
+
+  console.log(pack);
+  console.log(pack.metadata);
+  console.log(pack.defaultOptions);
+});

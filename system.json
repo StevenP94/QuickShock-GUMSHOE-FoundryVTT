@@ -13,7 +13,27 @@
         "qsgs.css"
     ],
     "packs": [
+        {
+            "name": "tocgenabilities",
+            "label": "Trail of Cthulhu General Abilities",
+            "path": "/packs/tocgenabilities.db",
+            "entity": "Item"
 
+        },
+        {
+            "name": "tocinvabilities",
+            "label": "Trail of Cthulhu Investigative Abilities",
+            "path": "/packs/tocinvabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "qscards",
+            "label": "QuickShock Cards (SRD)",
+            "path": "/packs/qscards_srd.db",
+            "entity": "Item"
+
+        }
     ],
     "languages":[
         {

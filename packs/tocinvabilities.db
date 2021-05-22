@@ -1,0 +1,38 @@
+{"_id":"1z7LlQ2BPwBE2SHE","name":"Architecture","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"3fITFkH7OapWBvYm","name":"Credit Rating","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"4Pk51u1asDbazwPU","name":"Medicine","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"56LmeS2g7lSZGIKX","name":"Photography","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"68uQgpKXV4WddUwD","name":"Evidence Collection","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"6ansLrMMiwOelSxF","name":"Assess Honesty","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"7dUOJZGQnpJNhPo6","name":"Physics","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"AlDfTh3CMpdlgOBb","name":"Languages","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"B6NmVctjRQS8r38y","name":"Streetwise","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"Fy4LdL8ejX1NGhxP","name":"Occult","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"G4sM8NRiT1qSKzEK","name":"Craft","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"Je9empEPSKI3hRXj","name":"Cryptography","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"LDT9H4XGj9ypxUwf","name":"Cop Talk","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"LPRmWG8BgNVXje1i","name":"Astronomy","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"NbuITNfq7ZO1WxXq","name":"Oral History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"OL7eWiEvmWM4uFbN","name":"Art History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"PpBqjwr94axaDeUs","name":"Cthulhu Mythos","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"QweKhIBeEw19Fgwg","name":"Law","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"V7Xc9Q7rwcH9Ydhc","name":"Flattery","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"W8sX4CpmgC6lvQhy","name":"Reassurance","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"WgPJJiXSJcusfRB1","name":"Intimidation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"YgfOF7ARcg2mPdrt","name":"Bargain","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"bLtqU4VCI2ev01aV","name":"Forensics","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"cq1Yjrn5F3Q480Hp","name":"Bureacracy","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"fUsLRwdJ8SzpYvT8","name":"Anthropology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"gtB1203aVFD8lFnV","name":"Accounting","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"h0yYIaOGblfh2apZ","name":"History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"j5GwC6gV3DjDXPBe","name":"Geology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"n9iVCRuWPuPykZN2","name":"Archaeology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"nxDxxdhVmZ4BU2Kt","name":"Biology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"q1r9hwFN7hIQk5mc","name":"Chemistry","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"uDhXffmsMBlEXON8","name":"Locksmith","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"uLxTY5jrwAztUmlp","name":"Art","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"upaHTKKVNNc3cnkx","name":"Pharmacy","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"wU9Whmm6954aPhSK","name":"Library Use","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"ww09WhsuLSIrEG6x","name":"Interrogation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"xVpJVcdK7dPm4sPa","name":"Theology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"zQTMHKXdEb7vtz3Z","name":"Outdoorsman","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}

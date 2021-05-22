@@ -4,7 +4,10 @@
     {{name}}
     {{#if data.rating}} 
     {{data.pool}} / {{data.rating}}
-    {{/if}} 
+    {{/if}}
+    {{#if data.canBeInvestigative}}
+    <i class="fas fa-search" title="{{localize "qsgs.char-sheet.addInv"}}"></i>
+    {{/if}}     
     </a>
 
 </p>

@@ -1,0 +1,1151 @@
+Name,Mate,Degree,Description,Continuity,Combo,Type
+Woozy,Poseidon’s Wrath,Minor,"Nonlethal. You can’t make Pushes. 
+Discard when you leave the boat.",,,Injury
+Poseidon’s Wrath,Woozy,Major,"Non-lethal. You can’t make Pushes. -2 to all tests (except Preparedness.) 
+Discard when you leave the boat.",,,Injury
+Tipsy,Intoxicated,Minor,"Nonlethal. -1 to tests. On a failed test, make a bad, drunk decision.
+Discard after two hours world time, or after a test to avoid Injury.",,,Injury
+Intoxicated,Tipsy,Major,"-2 to tests; +2 to Tolls. On a failed test, make a bad, drunk decision.
+After two hours world time, trade for “Tipsy.”",,,Injury
+"Cough, Choke, Splutter",Lungful of Water,Minor,"-1 to non-Focus tests.
+Discard at next interval.",,,Injury
+Lungful of Water,"Cough, Choke, Splutter",Major,"-2 to tests.
+As immediate recipient of Difficulty 4 First Aid success, or at end of next interval, trade for “Cough, Choke, Sputter.”",,,Injury
+Stay By the Water Closet,Ructious Innards,Minor,"Nonlethal. You must remain within proximity of a water closet. -2 to tests.
+After four hours of world time, you may make a Difficulty 4 Health test at the beginning of any interval, discarding this card on a success.",,,Injury
+Ructious Innards,Stay By the Water Closet,Major,"Nonlethal. You must remain within proximity of a water closet. You can’t make tests.
+After six hours of world time, you may make a Difficulty 4 Health test at the beginning of any interval, discarding this card on a success, and losing 3 Health on a failure.",,,Injury
+Abrasion,Concussed,Minor,"Nonlethal. Roll a die before making an Interpersonal Push. On a 2 or less, you can’t make the Push. 
+Discard on a Physical test.",,,Injury
+Concussed,Abrasion,Major,"You can’t make Pushes. 
+Discard after 48 hours of world time. ",,,Injury
+Hard Landing,Turned Ankle,Minor,Your next Physical test takes a penalty of 1; then discard.,,,Injury
+Turned Ankle,Hard Landing,Major,"-2 to Physical tests. 
+Trade for “Hard Landing” on a Physical failure.",,,Injury
+Something In Your Eye,Puncture Wound,Minor,"-3 to Sense Trouble tests, -1 to Physical and Focus tests.
+Discard on a Sense Trouble, Physical or Focus failure.",,,Injury
+Puncture Wound,Something In Your Eye,Major,"-2 to tests (except Preparedness.) 
+Discard as recipient of successful Difficulty 4 First Aid success, or at the end of any interval by spending 2 Health.",,,Injury
+Singed,Burned,Minor,"To make an Interpersonal Push you must also spend a Composure point. 
+At any time after the next interval, you may spend 1 Health to discard.",,,Injury
+Burned,Singed,Major,"-2 to tests (except Preparedness.) 
+Trade for “Badly Hurt” after you fail a test and then receive a Difficulty 5 First Aid success. ",,,Injury
+Grazed,Shot,Minor,"-1 to Physical tests. 
+Discard on a Physical success. ",,,Injury
+Shot,Grazed,Major,"-2 to Physical tests. Counts as 2 Injury cards. Trade for “On the Mend” as recipient of Difficulty 6 First Aid success. 
+If still in hand at end of scenario, you succumb to your injuries and die.",,,Injury
+Thrown Free of the Explosion,In the Blast Radius,Minor,"-1 to Physical tests. 
+When you receive this card, and at every subsequent interval, roll a die. Even: discard.",,,Injury
+In the Blast Radius,Thrown Free of the Explosion,Major,"-2 to Physical tests. Counts as 2 Injury cards. Trade for “On the Mend” as recipient of Difficulty 6 First Aid success.
+If still in hand at end of scenario, trade for “Permanent Injury.”",,,Injury
+Mostly Resistant,Find the Antidote,Minor,"You can’t spend Health points on tests. 
+At the end of each interval, roll a die. Even: discard.",,,Injury
+Find the Antidote,Mostly Resistant,Major,"If scenario ends with this card still in hand, you die.
+Discard by finding the antidote. ",,,Injury
+It Looks Worse Than It Is,Broken Fingers,Minor,"Upon seeing you for the first time after the incident that saddled you with this card, any other PC loses 1 Composure.
+Discard after 6 hours world time.",,,Injury
+Broken Fingers,It Looks Worse Than It Is,Major,"Nonlethal. -2 to non-Presence tests. Penalty drops to -1 as recipient of Difficulty 4 First Aid success.
+Penalty drops by 1 if in hand at start of session.
+Discard when penalty equals 0.",,,Injury
+Through the Ringer,Breaking Point,Minor,"+1 to Tolls. 
+Other PCs take -1 Composure penalties while in sight of you.
+Trade for “Black and Blue” as recipient of Difficulty 5 First Aid success.",,,Injury
+Breaking Point,Through the Ringer,Major,"+2 to Tolls.
+For the next six hours of world time, other PCs take -2 Composure penalties while in sight of you.
+After six hours world time, trade for the Injury card “Black and Blue” and the Shock card “They Broke You.”",,,Injury
+Contused,Crushed,Minor,"-1 to Physical tests. 
+Discard on a Physical success.",,,Injury
+Crushed,Contused,Major,"-2 to Physical tests. Counts as 2 Injury cards. As recipient of Difficulty 5 First Aid success, trade for “Black and Blue.”",,,Injury
+Black and Blue,Badly Beaten,Minor,"+1 to Tolls. 
+Discard when you take a major Injury.",,,Injury
+Badly Beaten,Black and Blue,Major,"+2 to Tolls.
+After two intervals, trade for “Black and Blue” as recipient of Difficulty 4 First Aid success.",,,Injury
+Glass Shards,Direct Chandelier Hit,Minor,"-1 on your next Physical test. 
+Any time after that test, discard with a Difficulty 3 Health success.",,,Injury
+Direct Chandelier Hit,Glass Shards,Major,"-2 on Physical tests, -1 on any other tests. 
+After you fail a test and receive a Difficulty 5 First Aid success, trade for “Glass Shards.”",,,Injury
+Lingering Cough,Scarred Lungs,Minor,"Lose 1 Health point (if available) every time you test a non-Focus ability. 
+At the end of any interval, roll a die. Even: discard.",,,Injury
+Scarred Lungs,Lingering Cough,Major,"Lose 2 Health points and 1 Fighting and 1 Riding point (as available) every time you test an ability other than Preparedness. 
+At the end of scenario, roll a die. On a 1, this becomes a Continuity card.",,,Injury
+Warm Blanket Needed,Ravaged By the Elements,Minor,"If you don’t get to a warm, dry place by the end of the next Interval, you are unable to spend Health points for the following two hours of world time. 
+Discard after two hours of world time.",,,Injury
+Ravaged By the Elements,Warm Blanket Needed,Major,"Your Health pool drops to 0. 
+After 2 hours of table time, roll a die.
+Even: discard. Odd: trade for “Badly Hurt.”",,,Injury
+Fall to Street Level,Hard Landing,Major,"-1 to Physical and Presence. 
+As recipient of an immediate Difficulty 5 First Aid success, discard at end of interval.",,,Injury
+Snakebit,Deadly Venom,Minor,"Unless you receive a Difficulty 4 First Aid success before end of interval, trade for the “Deadly Venom.”",,,Injury
+Deadly Venom,Snakebit,Major,"-2 to all tests (except Preparedness.) Counts as 2 Injury cards.
+Spend 3 Health to trade for “Badly Hurt.” You may do this even if would otherwise be your Final card.",,,Injury
+Whiff of Cyanide,Snootful of Cyanide,Minor,"-1 to Physical tests. Health drops to 0. 
+On a Physical success, refresh Health and discard this card.",,,Injury
+Snootful of Cyanide,It’s a Miracle You’re Alive,Major,-1 to Physical tests. You can’t discard Injury cards.,,,Injury
+It’s a Miracle You’re Alive,Massive Injuries,Minor,"-1 to Physical tests. 
+After a Physical failure, roll a die. Even: trade for Shock card “Rattled.”",,,Injury
+Massive Injuries,It’s a Miracle You’re Alive,Major,"Counts as 2 Injury cards. Until end of interval you can’t make tests. Thereafter, -2 to Physical and -1 to Focus tests.
+If scenario is not over at end of session, trade for “On the Mend.”",,,Injury
+Still Hurting,,Secondary,Discard on a Physical success with a Margin greater than 1. ,,,Injury
+On the Mend,,Secondary,-1 to all tests. Trade for “Still Hurting” on a Physical success.,,,Injury
+Permanent Injury,,Secondary,[No text],Continuity,,Injury
+Dazed,,Secondary,"-1 to all tests. 
+Discard at end of session.",,,Injury
+Jarred,,Secondary,Discard at end of session.,,,Injury
+Precarious Recovery,,Secondary,"-1 to Physical tests. 
+On a Physical failure, roll a die. Odd: Trade for you traded this card for.
+Discard on a Physical success with a margin of 3 or more.",,,Injury
+Badly Hurt,,Secondary,-1 to Physical and Focus tests.,,,Injury
+Draggy,,Secondary,"Choose one general ability type: Focus, Physical, or Presence. -1 to tests of that type.
+After any failure, discard if you have no other non-Continuity Shock or Injury cards.",,,Injury
+Choked,Throttled,Minor,"Lose 2 Health. +1 to Tolls for rest of scenario, even after this card is discarded.
+Discard after one interval.",,,Injury
+Throttled,Choked,Major,"Lose 2 Health.
+On or after one interval, trade for “Choked” as recipient of Difficulty 4 First Aid success.",,,Injury
+Cudgel Blow,A Thorough Thrashing,Minor,"-1 to Physical tests.
+At each new interval, roll a die. Odd: -1 to Focus until next interval. Even: discard.",,,Injury
+A Thorough Thrashing,Cudgel Blow,Major,"-1 to Physical and Focus. 
+On or after two intervals, trade for “Black and Blue” as recipient of Difficulty 5 First Aid success.",,,Injury
+Broken Bone,,Minor,"-2 to all tests. Lose 1 Health each time you make a Physical test.
+After 2 Intervals, as recipient of a Difficulty 4 First Aid success, trade for “On the Mend.”",,,Injury
+Stab Wound,Slashed Throat,Minor,"-1 to Physical and Focus. 
+Discard after a Physical or Focus success.",,,Injury
+Slashed Throat,Stab Wound,Major,"You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out. As recipient of a Difficulty 5 First Aid success, trade for “Stab Wound.”",,,Injury
+Shot,"Not a Significant Bullet
+(a Shock card)",Major,"-2 to Physical tests. Counts as 2 Injury cards. Trade for “On the Mend” as recipient of Difficulty 6 First Aid success. 
+If still in hand at end of scenario, you succumb to your injuries and die.",,,Injury
+Laceration,Flesh Wound,Minor,"When called on to make a Physical test, you may choose to take a -2 penalty on the test and then discard this card.",,,Injury
+Flesh Wound,Laceration,Major,-1 to non-Focus tests. Trade for “Laceration” after any non-Focus success.,,,Injury
+Stolen Years,Stolen Decades,Minor,Roll a die. Odd: permanently lose 1 point from your Health rating.,,,Injury
+Stolen Decades,Stolen Years,Major,"At the beginning of each scenario, pay a toll of 3.
+If this is your only injury card at the end of a scenario, roll a die. Even: discard.",Continuity,,Injury
+Bitten,"Atavistic Terror of an Animal Attack
+(a Shock card)",Major,"-1 on Physical tests. 
+To discard, receive a Difficulty 4 First Aid success, then make a Physical test.",,,Injury
+Gargoyle Strike,Crushing Gargoyle Strike,Minor,"-1 to Physical and Focus.
+At end of any interval, roll a die. Even: discard.",,,Injury
+Crushing Gargoyle Strike,Gargoyle Strike,Major,"-2 to Physical and Focus.
+After two intervals, trade for “Gargoyle Strike.” ",,,Injury
+Dragon Claw,Dragon Bite,Minor,"-1 to Physical tests.
+Discard on a Physical success with a margin greater than 2.",,,Injury
+Dragon Bite,Dragon Claw,Major,"If you have no other Injury cards when you receive this, counts as 2 Injury cards.
+If still in hand at end of scenario, you die.
+Trade for “On the Mend” as recipient of Difficulty 5 First Aid success.",,,Injury
+You Should See the Other Fellow,Concussed,Minor,"Nonlethal. You can’t make Interpersonal Pushes. 
+Discard after 24 hours of world time, or when you gain another Injury, whichever comes first.",,,Injury
+Concussed,You Should See the Other Fellow,Major,"You can’t make Pushes. 
+Discard after 48 hours of world time.",,,Injury
+Steam-Drill Heart,Apoplexy,Minor,"Lose 1 Health on any Physical success and 2 Health on any Physical failure.
+Discard by going for 3 intervals without making a Physical test.",,,Injury
+Apoplexy,Steam-Drill Heart,Major,"All Physical pools drop to 0. 
+-2 to tests. 
+Trade for “On the Mend” as recipient of an immediate Difficulty 6 First Aid success or after 24 hours (world time) convalescing in hospital.",,,Injury
+Soul Swipe,Yellow Doom,Minor,"As recipient of dream command from the Yellow King, you must obey it, or gain the card “Yellow Doom.”",,Combo,Injury
+Yellow Doom,Soul Swipe,Major,"If still in hand after twenty four hours (world time), your character dies. 
+Discard by striking a significant blow against the forces of Carcosa.",Continuity,Combo,Injury
+The Final Pallor,"He Ripped Out Your Heart, Showed It To You, Then Stuffed It Back In",Minor,"-1 to all tests. 
+When you strike a significant blow against the forces of Carcosa, roll a die. Even: discard.",,Combo,Injury
+"He Ripped Out Your Heart, Showed It To You, Then Stuffed It Back In",The Final Pallor,Major,"-2 to tests. For the rest of this scenario, starting with the scene after the one in which you received this card, counts as two Injuries and two Shocks. 
+Discard by participating in a fight against the Yellow King that routs or thwarts him.",Continuity,Combo,Injury
+Carcosan Dagger,Carcosan Rapier,Minor,"-1 to Physical tests.
+Discard if the entity responsible for your taking this card is destroyed.",,,Injury
+Carcosan Rapier,Carcosan Dagger,Major,"-2 to Physical tests.
+Discard if the entity responsible for your taking this card is destroyed.",,,Injury
+Muzzy Headed,Heavily Sedated,Minor,"Lose 1 point from all Presence pools. At end of next interval, regain those points and discard this card.",,,Injury
+Heavily Sedated,Muzzy Headed,Major,"Roll a die. You remain unconscious for that number of hours (world time). If all characters get this card, they all wake up, confined and in a bad situation.
+When you wake up, trade for “Muzzy Headed.”",,,Injury
+Scratched Psyche,Poisoned Psyche,Minor,"-1 to Focus tests. 
+Discard as recipient of an Occultism spend, or by taking a risk / paying a cost to locate a healing incantation in a rare grimoire.",,,Injury
+Poisoned Psyche,Scratched Psyche,Major,"You can’t discard Shock cards.
+Discard by discovering and successfully performing the ritual that permanently kills the entity that did this to you.
+At end of scenario, roll a die. 1-2: becomes a Continuity card.",,,Injury
+Clawed,Eviscerated,Minor,"-2 to all tests. 
+Trade for “On the Mend” on any Physical success. ",,,Injury
+Eviscerated,Clawed,Major,"Counts as 2 Injuries. You can't make Physical tests. 
+After 6 hours of world time, trade for ""On the Mend” as recipient of Difficulty 6 First Aid success. After 12 hours of world time Difficulty of that test drops to 4.",,,Injury
+Head Butt,Curb Stomped,Minor,"10 minutes (world time) after the fight, roll a die. Even: discard. Odd: trade for “Concussed.”",,,Injury
+Curb Stomped,Head Butt,Major,"-3 to all tests. 
+After 24 hours of world time, trade for “Cracked Skull.”",,,Injury
+Cane Blow,Sword Cane Stab,Minor,"At each new interval, roll a die. Even: discard.",,,Injury
+Sword Cane Stab,Cane Blow,Major,"Lose 1 Health each time you make a Physical test.
+Discard as recipient of Difficulty 4 First Aid success.
+If still in hand at end of scenario, roll a die. Odd: you die.",,,Injury
+Sedated,Muzzy-Headed,Major,"Lose 2 points from all Presence pools. You wake up three hours later in a place and circumstance of the foe’s choosing, at which point you discard this card.",,,Injury
+Strong Armed,Restrained,Minor,"Lose 1 Athletics and 1 Fighting. 
+At next interval, regain those points and discard this card.",,,Injury
+Restrained,Strong Armed,Major,"Your foes succeed in rendering you helpless. -1 to Physical tests.
+When you are no longer helpless and fail a Physical test, discard.",,,Injury
+Picked Up and Thrown Hard,Monstrous Battering,Minor,"Lose 2 Health and 2 Composure. 
+Discard after half an hour (world time.)",,,Injury
+Monstrous Battering,Picked Up and Thrown Hard,Major,"-2 to Physical tests. Counts as 2 Injury cards. 
+Trade for “On the Mend” as recipient of Difficulty 6 First Aid success. 
+If still in hand at end of scenario, trade for “Permanent Injury.”",,,Injury
+Impressive Yet Superficial Cut,Arterial Spray,Minor,"+1 to Presence tests. (Yes, +1.)
+Spend 2 Health to trade any other non-Continuity Injury you hold for “On the Mend.” Spend 2 Health to discard.",,,Injury
+Arterial Spray,Impressive Yet Superficial Cut,Major,"If your Health exceeded 4 when you took this injury,-1 to Physical tests. Otherwise, -2 to Physical tests. 
+Discard as recipient of Difficulty 4 First Aid success.",,,Injury
+Ghost Fire,Singed,Major,"Make a Difficulty 4 Composure test when you get this card. On a failure, it is also a Shock card.
+-2 on Physical tests and -1 on all other tests until next interval. For following interval, -1 to Physical tests. At end of that interval, discard.",,,Injury
+Blow to the Head,Ringing Cranium,Minor,-2 to Sense Trouble.,,,Injury
+Ringing Cranium,Blow to the Head,Major,"-2 to Focus and Presence; -1 to Physical tests.
+After four hours of world time, trade for “Blow to the Head.”",,,Injury
+Sawed Flesh,"The Shudders
+(Shock card)",Major,Roll a die; lose that number of Athletics points. Discard as recipient of a Difficulty 5 First Aid success.,,,Injury
+Fearsome Gut Punch,Broken Jaw,Minor,"-2 to Physical and Focus until end of interval. -1 until subsequent interval. Then roll a die. Even: discard. If not then discarded, keep trying at each new interval.",,,Injury
+Broken Jaw,Fearsome Gut Punch,Major,-2 to Physical and Focus tests. You can’t make Interpersonal Pushes. Trade for “On the Mend” as recipient of Difficulty 5 First Aid success.,,,Injury
+Roughed Up,Sucker Punched,Minor,"Lose 1 Composure. 
+Discard after any Physical success, or by spending 1 Athletics.",,,Injury
+Sucker Punched,Roughed Up,Major,"Lose 2 Health. 
+Roll a die; discard after that number of successes.",,,Injury
+Scratched,Throat Punctures,Minor,"Discard as recipient of successful Difficulty 5 First Aid success. After one interval, test Difficulty drops to 3.",,,Injury
+Throat Punctures,Scratched,Major,"Health pool drops to 0. -2 to Focus tests. After two intervals, trade for “Scratched” by spending 2 Composure.",,,Injury
+Venomous Fangs,"Snakes, Our Oldest Fear
+(Shock card)",Major,Roll a die; lose that number of Health points. -2 on Physical tests. Discard as recipient of a Difficulty 5 First Aid success. Difficulty increases to 7 if your Health is 0.,,,Injury
+Undead Thrashing,Monstrous Mauling,Minor,"When the walking corpse(s) is / are killed, roll a die. Even: trade for the Injury card “Jarred.” Odd: trade for the Shock card “The Tremors.” ",,Combo,Injury
+Monstrous Mauling,Undead Thrashing,Major,"-1 to tests. 
+Trade for “Still Hurting” by paying a price or overcoming a relevant obstacle. 
+If still in hand at end of scenario, gain the card “Permanent Injury.”",,Combo,Injury
+Yeth Bite,Yeth Mauling,Minor,"-1 to Focus tests.
+Discard when you take part in a fight ending in defeat for the sender of the Yeth-Hound.",,,Injury
+Yeth Mauling,Yeth Bite,Major,"-1 to tests. 
+Trade for “Still Hurting” when you take part in a fight ending in defeat for the sender of the Yeth-Hound.",,,Injury
+Pinned by Debris,"Beside Yourself
+[Shock]",Major,"As immediate recipient of a Difficulty 5 Athletics test, trade for “Beside Yourself.” Otherwise your Health pool drops to 0 and -1 to Physical tests. 
+Discard at end of session.",,,Injury
+Your Lucky Charm Caught a Bullet,Perforated,Minor,"At end of interval, discard and make Difficulty 4 Composure test. Failure: take the Shock card “Cortisol Spike.” Success: refresh Composure. ",,,Injury
+Perforated,Your Lucky Charm Caught a Bullet,Major,"-1 to Physical tests. 
+As recipient of Difficulty 5 First Aid success, roll a die. Odd: trade for “Patched Up.” Even: discard.",,,Injury
+Caked in Ash,Three Inches to The Left and You’d Be Dust,Minor,"Make a Difficulty 4 Composure test, or also gain “Shell-Shocked.”
+If your Health pool is greater than 3, discard at end of interval. Otherwise, discard as recipient of Difficulty 3 First Aid test.",,,Injury
+Three Inches to The Left and You’d Be Dust,Caked in Ash,Major,"-1 to tests. Also gain “Shell-Shocked.” 
+After one or more intervals, discard as recipient of Difficulty 4 First Aid success.",,,Injury
+Flying Leap,Flaming Debris,Minor,"-1 on your next Physical test.
+Any time after taking that penalty, pay 1 Athletics to discard.",,,Injury
+Flaming Debris,Flying Leap,Major,"-1 to Composure, Fighting, and Battlefield tests. 
+Any time after failing a test of any of those abilities, discard as recipient of a Difficulty 5 First Aid test.",,,Injury
+Muscle Cramps,Rapid Dehydration,Minor,"-1 to tests.
+After any failure, you may roll a die, paying Health equal to the result to discard. If the result exceeds your available Health, trade for “Rapid Dehydration.”",,,Injury
+Rapid Dehydration,Muscle Cramps,Major,"Your Health drops to 0.
+Trade for “Dazed” as recipient of Difficulty 4 First Aid success. 
+If still held at end of scenario, you die.",,,Injury
+Hunger,Respiratory Failure,Minor,"-1 to Physical and Focus tests.
+Discard by eating a meal.",,,Injury
+Respiratory Failure,Hunger,Major,"-2 to Physical tests.
+After eating a meal, make a Difficulty 6 Health test. On a success, trade for “Hunger.” On a failure, trade for “Permanent Injury.”",,,Injury
+Unwell,Dysentery,Minor,"Lose 1 Health. At the end of each interval, roll a die. Odd: lose 1 Health.
+Discard as recipient of Difficulty 3 First Aid success.",,,Injury
+Dysentery,Unwell,Major,"Lose 2 Health and 1 point from every other Physical pool.
+As recipient of a Difficulty 4 First Aid success, roll a die. Even: discard. Odd: trade for “Unwell.”",,,Injury
+Confusion,Gangrene,Minor,"-1 to Focus tests.
+Trade for “Gangrene” if not removed from exposing conditions within 10 minutes (world time).",,,Injury
+Gangrene,Confusion,Major,"Counts as 2 Injury cards.
+Trade for “Permanent Injury” as recipient of Difficulty 5 First Aid success. ",,,Injury
+Sore Throat ,Influenza,Minor,"Non-lethal. Lose 1 Health.
+At end of each interval, roll a die. On a 1, trade for “Influenza.” On a 5 or higher, discard.",,,Injury
+Influenza,Sore Throat ,Major,"-2 to Physical tests, -1 to other tests.
+At end of any interval, you may pay 1 Health and roll a die. On a 5 or 6, trade for “Sore Throat.” If you ever get a result of 1 on this roll, and still have this card at end of scenario, you die.",,,Injury
+Shredded Flesh,“Am I Still in One Piece?”,Minor,"To spend points on any Athletics, Fighting, or Battlefield test, you must also spend 1 Health point. 
+Discard as recipient of Difficulty 4 First Aid success.",,,Injury
+“Am I Still in One Piece?”,Shredded Flesh,Major,"You can’t make Physical tests. -1 to Focus tests. You can’t walk. 
+Trade for “Shrapnel” as recipient of a Difficulty 5 First Aid success.",,,Injury
+Bruised While Taking Cover,Sprayed,Minor,"Discard by spending 1 point of Health, Fighting, or Battlefield, or as recipient of 1-point First Aid spend.",,,Injury
+Sprayed,Bruised While Taking Cover,Major,"-2 to Physical tests. 
+As recipient of Difficulty 7 First Aid success, roll a die. Even: trade for “Patched Up.” Odd: trade for “Shot Up Good.”
+If still held at end of scenario, you succumb to your injuries and die.",,,Injury
+Winded,Exhausted,Minor,"Non-lethal. -1 to Physical tests.
+Discard after an hour’s rest (world time).",,,Injury
+Exhausted,Winded,Major,"-2 to Physical tests.
+Discard when the squad Hunkers Down, or trade for “Winded” as recipient of a Difficulty 4 Scrounging success. Scrounger must describe the scrounged item that revives you.",,,Injury
+Ringing Ears,Hurled and Scorched,Minor,"-1 to Focus tests. 
+After one interval, make a Difficulty 4 Health test to discard. If you fail, you can retry as needed at the end of any interval.",,,Injury
+Hurled and Scorched,Ringing Ears,Major,"Roll a die. Even: lose 2 Health and 1 Athletics. Odd: lose 1 Health and 2 Athletics. 
+Discard as recipient of a Difficulty 4 First Aid success, or after two intervals.",,,Injury
+Light-Headed,Lung Damage,Minor,"-1 to Physical and Focus tests. At end of interval, make a Difficulty 5 Health success to discard. You may attempt again at each subsequent interval, with Difficulty dropping by 1 each time.",,,Injury
+Lung Damage,Light-Headed,Major,"-2 to Physical tests, -1 to Focus tests.
+At end of scenario, make a Difficulty 5 Health test. Success: discard. Failure: this becomes a Continuity card.",,,Injury
+Shark Bite,"Those Telltale Fins
+[Shock]",Major,"Roll a die: add the result to the margin of the test to avoid this hazard. Lose that number of Health points.
+Trade for “Patched Up” as recipient of Difficulty 5 First Aid success.",,,Injury
+Bleary,Dead on Your Feet,Minor,"-1 to tests.
+Discard by getting ten hours sleep (world time).",,,Injury
+Dead on Your Feet,Bleary,Major,"-2 to tests.
+At the end of each interval, make a Difficulty 5 Health check. Failure: you lose consciousness, regaining it only after three hours or if forcefully awakened.
+Trade for “Bleary” by getting six hours sleep (world time).",,,Injury
+Through and Through,Bruised While Taking Cover,Major,"-1 to next Physical test, after which roll a die. Even: discard. Odd: trade for “Impediment.”",,,Injury
+Sub-Sonic Thrum,Sub-Sonic Disruption,Minor,"-1 to Composure and Battlefield tests.
+Discard on a salient Composure or Battlefield failure, or after one hour (world time).",,,Injury
+Sub-Sonic Disruption,Sub-Sonic Thrum,Major,"Injury
+-2 to Composure and Battlefield tests.
+After one hour of world time, discard on a Difficulty 4 Health success. You may retry the test once per interval.",,,Injury
+Rapid Heartbeat,Light-Headed,Minor,"-2 to Physical tests.
+On a Difficulty 4 First Aid success, roll a die. Even: trade for “Light-Headed.” Odd: trade for “Recovering.”",,,Injury
+Tetanic Fever,Lockjaw,Major,"-1 to Physical tests.
+At end of any interval, you may pay 2 Health and roll a die. Even: discard. Odd: trade for “Lockjaw.” ",,,Injury
+Lockjaw,Tetanic Fever,Minor,"-2 to Physical tests.
+At end of any interval, you may pay 3 Health and roll a die. On a result higher than 1, discard. On a result of 1, you die.",,,Injury
+Agony of Thirst,Kidney Failure,Major,"-1 to Physical tests.
+Discard by slowly drinking a full serving of any non-dehydrating beverage.",,,Injury
+Kidney Failure,Agony of Thirst,Minor,"Counts as 2 Injury cards.
+After taking the opportunity to slowly drink any non-dehydrating beverage, roll a die. Odd: trade for “Permanent Injury.” Even: trade for “Recovery.”",,,Injury
+Necrotic Tissue,Gangrene,Minor,"Lose 1 Health each time you walk for more than half a mile.
+Discard on a Difficulty 3 First Aid success and a 1-point Health spend. You may make the test yourself or receive it.",,,Injury
+Scuffed Up,Torn Ligament,Minor,"Your next Physical test takes a penalty of 1.
+Discard after that test.",,,Injury
+Torn Ligament,Scuffed Up,Major,"-2 to Physical tests. 
+Trade for “Impediment” when you fail a Physical test.",,,Injury
+Discourager Graze,Discourager Hit,Minor,"-1 to Fighting, Battlefield, and Composure tests while behind enemy lines.
+If behind allied lines, spend 1 Composure to discard.",,,Injury
+Discourager Hit,Discourager Graze,Major,"-2 to Fighting, Battlefield, and Composure tests while behind enemy lines.
+If behind allied lines, trade for “Patched Up” as recipient of Difficulty 5 First Aid success. 
+If still held at end of scenario, you go into cardiac arrest and die.",,,Injury
+Quisling Graze,Quisling Hit,Minor,"-1 to Fighting, Battlefield,  and Composure tests.
+Discard by using force against a superior. If superior expects the attack, roll a die after completing it. Odd: do not discard.",,,Injury
+Quisling Hit,Quisling Graze,Major,"-2 to Fighting, Battlefield, and Composure tests. 
+Trade for “Patched Up” as recipient of Difficulty 5 First Aid success, after using force against a superior who has not assented to the attack.
+If still held at end of scenario, you have a brain aneurysm and die.",,,Injury
+Suppurator Graze,Suppurator Hit,Minor,"You can’t discard Injury cards.
+At end of each interval, any PC who can see you loses 1 Composure.
+Discard as recipient of Difficulty 3 First Aid success.",,,Injury
+Suppurator Hit,Suppurator Graze,Major,"You can’t discard Injury cards.
+At end of each interval, any PC who can see you loses 1 Composure.
+Discard as recipient of Difficulty 4 First Aid success. At start of following interval, you gain “Suppurator Graze.”
+If still held at end of scenario, you die.",,,Injury
+White-Sky Graze,White-Sky Hit,Minor,"-2 Fighting vs. Carcosans. -1 Fighting vs. Warspawn.
+Discard as recipient of Difficulty 7 First Aid success. Difficulty drops to 3 after fighting a Carcosan or Warspawn.",,,Injury
+White-Sky Hit,White-Sky Graze,Major,"-2 Fighting vs. Carcosans and Warspawn.
+As recipient of Difficulty 6 First Aid success, discard (if you fought a Carcosan or Warspawn after taking this Injury) or trade for “White-Sky Graze” (if you didn’t).",,,Injury
+Hit Bad,"Shell-Shocked
+[Shock]",Major,"-2 to Physical tests.
+Spend 2 Health to trade for “Shell-Shocked” and “Patched Up.” Spend 4 Health to trade for your choice of either.",,,Injury
+Tentacle Lash,Squid Bite,Minor,"Lose Health equal to your margin on the Battlefield test +1.
+Discard after two intervals on shore.",,,Injury
+Squid Bite,Tentacle Lash,Major,"Roll a die: add the result to the margin of the test to avoid this bite. Lose that number of Battlefield points.
+Trade for “Cough, Choke, Splutter” on a Difficulty 4 First Aid success, received during the current interval. If received later, trade for “Recovering.”",,,Injury
+Splinter,Struck by Wood Debris ,Minor,"Non-lethal. -1 to Physical tests.
+After a Physical failure, spend 1 Health to discard.",,,Injury
+Struck by Wood Debris ,Splinter,Major,"-2 to Physical tests. 
+As recipient of a Difficulty 5 First Aid success, roll a die. Even: trade for “Splinter.” Odd: trade for “Patched Up.”",,,Injury
+Blurred Vision,Circulatory Damage,Minor,"-1 to tests. 
+Discard as recipient of Difficulty 5 First Aid success, conducted by a character with access to the antidote.",,,Injury
+Circulatory Damage,Blurred Vision,Major,"-1 to Physical tests.
+For the first three hours (world time) after getting this card, gain “Blurred Vision” on any Physical failure.",Continuity,,Injury
+"Shrapnel’s Sharp, Water’s Hard",Into the Drink,Minor,"-1 to Focus tests.
+Discard as recipient of Difficulty 4 Scrounging success. Scrounger must describe the found item that restores you.",,,Injury
+Into the Drink,"Shrapnel’s Sharp, Water’s Hard",Major,"At end of scene, if you have less than 3 Battlefield points, trade for “Cough, Choke, Sputter.” Otherwise, discard.",,,Injury
+Convulsions,Internal Bleeding,Minor,"-2 to Physical tests, -1 to other tests. You can’t make Pushes.
+Discard by spending 3 Health or as recipient of Difficulty 5 First Aid success.",,,Injury
+Internal Bleeding,Convulsions,Major,"-2 to Physical tests.
+After one hour of world time, you must become recipient of a Difficulty 6 First Aid success. If so, trade for “Convulsions.” If not, you die.",,,Injury
+Rifle Hit,Bruised While Taking Cover,Major,"-2 to Physical tests. 
+Trade for the card “Patched Up” as recipient of Difficulty 5 First Aid success.
+If still held at end of scenario, you succumb to your injuries and die.",,,Injury
+Roasted,Burned,Major,"-2 to tests. 
+As recipient of Difficulty 6 First Aid success, trade for “Burned.”",,,Injury
+Slammed Against the Hull,Into the Depths,Minor,"-1 to Physical tests.
+Discard after two salient Physical failures.",,,Injury
+Into the Depths,Slammed Against the Hull,Major,"Battlefield drops to 0.
+Once on shore, as recipient of Difficulty 4 Scrounging test, roll a die. 1-2: trade for “Slammed Against the Hull.” 3-4: trade for “Cough, Choke, Splutter.” 5-6: refresh Battlefield and discard.",,,Injury
+Soul Decay,Black Blood,Minor,"Lose 1 Composure. At the end of each interval, roll a die. Odd: lose 1 Composure.
+Discard on a success that aids you against a supernatural entity.",,,Injury
+Black Blood,Soul Decay,Major,"Roll a die. Lose Health points equal to the result. If you are then at 0 Health, this becomes a Continuity card.
+On a success that aids you against a supernatural entity, roll a die. Even: discard at end of session.",,,Injury
+Susceptible,Black Tears,Minor,"-1 to tests when in the presence of Warspawn or Carcosans.
+Discard as recipient of an Occultism Push or Difficulty 6 Morale success.",,,Injury
+Black Tears,Susceptible,Major,"All PCs take -1 to tests. Effects of multiple “Black Tears” cards do not stack.
+Discard by contributing to the defeat of a Warspawn or Carcosan.",,,Injury
+Worse Than It Looks,Thoroughly Perforated,Minor,"On the next Physical test you fail by 1, discard this card, and succeed at the test with a margin of 0.",,,Injury
+Thoroughly Perforated,Worse Than It Looks,Major,"-2 to tests. 
+As recipient of Difficulty 5 First Aid success, roll a die. Even: trade for “Worse Than It Looks.” Odd: trade for “Shot Up Good.”",,,Injury
+Stink Grenade,Drenched in Stink,Minor,"-3 to tests.
+Discard by leaving the area of effect. Regain this Injury if you re-enter.",,,Injury
+Drenched in Stink,Stink Grenade,Major,"-3 to tests within area of effect. -1 to tests otherwise.
+Discard after a three-hour bath in anti-stink solution (world time).",,,Injury
+Light Shrapnel,Grenade,Minor,"-1 to Physical tests. 
+Discard at next interval.",,,Injury
+Grenade,Light Shrapnel,Major,"The margin of your failed Physical tests increases by 1. When you fail a Physical test, all Focus tests take -1 penalty until end of interval. Discard as recipient of Difficulty 6 First Aid success.",,,Injury
+Struck by Debris,Cannon Fodder,Minor,"1 to tests. 
+Discard on a successful test.",,,Injury
+Cannon Fodder,Struck by Debris ,Major,"Counts as 2 Injury cards. -4 to all tests. 
+After 24 hours of world time, trade for “Patched Up.”",,,Injury
+Impediment,,Secondary,"-1 to Physical tests. 
+After 24 hours of world time, discard as recipient of a 1-point First Aid spend. After 48 hours of world time, discard.",,,Injury
+Patched Up,,Secondary,"-1 to tests. 
+Trade for “Recovering” on a salient Physical success.",,,Injury
+Recovering,,Secondary,"Trade for “Patched Up” when you take another Injury card. 
+Discard at end of session.",,,Injury
+Shot Up Good,,Secondary,"-1 to all tests. First Aid tests in which you are the recipient take a -1 penalty. 
+Trade for “Patched Up” as recipient of Difficulty 4 First Aid success.",,,Injury
+Still Crispy,,Secondary,"First Aid tests in which you are the recipient take a -2 penalty. 
+Trade for “Recovering” after 24 hours of world time.",,,Injury
+Sliced and Diced,Skinned Alive,Minor,"-1 to Physical tests. 
+After failing a salient Physical test, roll a die. If the foe who dealt you this Injury (or “Skinned Alive”) is dead, discard on an even result. If not, discard on a 6. ",,,Injury
+Skinned Alive,Sliced and Diced,Major,"You can’t perform Physical tests. -2 to Focus and Presence tests.
+After one day of world time and as recipient of a Difficulty 6 First Aid success, trade for “Sliced and Diced.”
+If still held at end of scenario, you die.",,,Injury
+Knife Wound,Bayonet Wound,Minor,"Roll a die. Odd: -2 to your next test. Even: -1 to your next test. 
+Discard after next test.",,,Injury
+Bayonet Wound,Knife Wound,Major,"-2 to Physical tests. -2 to First Aid tests performed on you. 
+Trade for “Patched Up” as recipient of Difficulty 4 First Aid success.
+If still held at end of scenario, you succumb to your injuries and die.",,,Injury
+Barely a Scratch,Bullet Wound,Minor,"-2 on your next test. If you succeed at the test, you may discard a non-Continuity Shock card. 
+After your next test, discard as recipient of Difficulty 4 First Aid success.",,,Injury
+Bullet Wound,Barely a Scratch,Major,"-2 to Physical tests. Counts as 2 Injury cards. Trade for “Patched Up” as recipient of Difficulty 6 First Aid success.
+If still held at end of scenario, you succumb to your injuries and die.",,,Injury
+Gash,Bullet Wound,Minor,"Before your next test, roll a die and discard this card. Odd: -2 on test.",,,Injury
+Jabbed,Impaled and Partially Exsanguinated,Minor,"Discard by spending 2 Health, or as recipient of 1-point First Aid spend from another player.",,,Injury
+Impaled and Partially Exsanguinated,Jabbed,Major,"-3 on next Physical test, -2 on next test of any kind after that; then you may spend 2 Health to trade for “Recovering” or 4 Health to trade for “Dazed.”",,,Injury
+Beak Jab,Beak Stab,Minor,"Roll a die. Even: discard immediately.
+Odd: lose Health equal to your die roll. Discard after an hour (world time).",,,Injury
+Beak Stab,Beak Jab,Major,"Roll a die: lose that number of points from Health, Athletics, and Fighting in a distribution of your choice.
+Discard after an hour (world time).",,,Injury
+Nearly Stomped,Steel Beam Stomp,Minor,"Lose 2 Athletics.
+Discard after 10 minutes (world time).",,,Injury
+Steel Beam Stomp,Nearly Stomped,Major,"-2 to tests. Counts as 2 Injury cards. 
+As recipient of Difficulty 6 First Aid success, roll a die. Even: trade for “Patched Up.” Odd: trade for “Precarious Recovery.”",,,Injury
+When You Regain Consciousness...,,Minor,"You are knocked out and will wake up in the foe’s clutches. 
+Discard when you gain a core clue while in custody, or when you escape.",,,Injury
+Seeing Double,Skull Fracture,Minor,"You are knocked out and wake up in the foe’s clutches. -1 to Presence tests. 
+Discard on your first Presence test following your escape or rescue.",,,Injury
+Skull Fracture,Seeing Double,Major,"You are knocked out and wake up in the foe’s clutches. -2 to tests.
+After you escape or are rescued, trade for “Patched Up” as recipient of 2-point First Aid spend or “Dazed” on a 4-point spend.",,,Injury
+Punched,Parasitic Link,Minor,"Discard after your next test. If that test is a Focus test, it takes a -2 penalty. Otherwise, the test takes a -1 penalty.",,,Injury
+Parasitic Link,Punched,Major,"-1 to any test you spend points on. 
+Discard by killing the redmedic who healed you.",,,Injury
+Superficial Burns,Deep Burns,Minor,"-1 to Physical tests. 
+Discard by spending 2 First Aid on yourself, or having 1 First Aid spent on you.",,,Injury
+Deep Burns,Superficial Burns,Major,"-2 to Physical tests. 
+After any successful Physical test, spend 1 Health to trade for “Superficial Burns.”",,,Injury
+Microscopic Wounds,Cell Damage,Minor,"-1 to First Aid tests performed on 
+you by other characters.
+Discard when you are the would-be 
+recipient of a failed First Aid test.",,,Injury
+Cell Damage,Microscopic Wounds,Major,"-1 to First Aid tests performed on 
+you by other characters.
+When a first First Aid test works 
+on you, roll a die. Even: trade for 
+“Microscopic Wounds.”",,,Injury
+Hoof Strike,Warhorse Bite,Minor,"Any time after the current interval, you may spend 1 Health or have 2 First Aid spent on you to discard.",,,Injury
+Warhorse Bite,Hoof Strike,Major,"-1 to Physical tests. 
+At end of interval, roll a die. Even result: discard. Odd result: trade for “Patched Up.”",,,Injury
+Blown Back,“Am I Still In One Piece?”,Minor,"Lose 1 Composure and 1 Health.
+After any success with a margin of 0 or 1, you may pay 1 Composure to discard.
+After any success with a margin of 2 or more, discard.",,,Injury
+A Mere Nip,Torn Throat,Minor,"Your next test takes a penalty: -2 for a Physical test, -1 for any other test. Then discard.",,,Injury
+Torn Throat,A Mere Nip,Major,-2 to Physical tests. Trade for “Patched Up” and “Shaken” as recipient of a successful Difficulty 6 First Aid test.,,,Injury
+Grazed by a Needler,Shot by a Needler,Minor,Lose 2 Athletics. Discard as recipient of a Difficulty 4 First Aid success. ,,,Injury
+Shot by a Needler,Grazed by a Needler,Major,"Physical tests automatically fail with a margin of 3. After two intervals, you may discard as recipient of a Difficulty 5 First Aid success.",,,Injury
+Grazed by a Mangler,Shot by a Mangler,Minor,Lose 3 Composure. Discard as recipient of a Difficulty 4 First Aid success. ,,,Injury
+Shot by a Mangler,Grazed by a Mangler,Major,"Composure pool drops to 0. Presence tests automatically fail with a margin of 3. After two intervals, you may discard as recipient of a Difficulty 6 First Aid success.",,,Injury
+Pain Baton Tap,Pain Baton Hit,Minor,"-2 to tests for 30 minutes of game time, then discard.",,,Injury
+Pain Baton Hit,Pain Baton Tap,Major,"-6 to tests for 15 minutes of game time, -2 to tests for following 15 minutes, then discard.",,,Injury
+Cambuk Zap,Cambuk Slash,Minor,"Shock or Injury (player chooses)
+-4 to Composure tests when in view of the Yellow Sign. 
+Discard after two intervals.",,Choose,Injury
+Cambuk Slash,Cambuk Zap,Major,"-4 to Composure tests when in view of the Yellow Sign. 
+After two intervals, you may discard as recipient of a Difficulty 4 First Aid success.",,Combo,Injury
+Knocked Out,Neural Hemorrhage,Minor,"You fall unconscious and can take no further actions for 30 minutes of world time. 
+Then wake up and discard.
+If you wake up as a prisoner, and do not get an opportunity to gain key information as a result, you may then discard a non-Continuity Shock card.",,,Injury
+Neural Hemorrhage,Knocked Out,Major,"You fall unconscious and can take no further actions. After 30 minutes of world time, you wake up, trading this card for your choice of the Injury card “On the Mend” or the Shock card “Rattled.” 
+If you wake up as a prisoner, and do not get an opportunity to gain key information as a result, you may then discard a non-Continuity Shock card.",,,Injury
+Forget-Me-Do,Forced Amnesia,Minor,"-1 to Presence tests.
+x = your failed margin plus a die roll.
+Everything that happened to you in the past x hours (world time) seems like an unreliable blur, with actual events and dream-like impossibilities tangled up together.
+After one interval, discard and roll a die. Odd: the memory confusion persists permanently.",,,Injury
+Forced Amnesia,Forget-Me-Do,Major,"Everything that happened to you in the scenario so far seems like an unreliable blur, with actual events and dream-like impossibilities tangled up together.
+Discard by finding definitive external proof of the event you were meant to forget.",,,Injury
+Aversion Bracelet I,Aversion Bracelet II,Minor,"When you can see a Yellow Sign from 12 or fewer meters away, -1 to tests, and this becomes a Shock card. Effects last for one hour (world time).
+Discard as recipient of a Difficulty 4 Mechanics success.",,,Injury
+Aversion Bracelet II,Aversion Bracelet I,Major,"When you can see a Yellow Sign from 24 or fewer meters away, -1 to tests, and this becomes a Shock card. Effects last for three hours (world time).
+Discard as recipient of a Difficulty 4 Mechanics success.",,,Injury
+Goodbye Gas Exposure,Goodbye Gas Contact,Minor,"-1 to Physical test.
+On a Difficulty 4 Health success, or as recipient of a Difficulty 4 First Aid success, roll a die. On a 1, trade for “Precarious Recovery.” Otherwise, trade for “Draggy.”",,,Injury
+Goodbye Gas Contact,Goodbye Gas Exposure,Major,"-2 to Physical tests. 
+If received with no other Injury cards in hand, counts as 2 Injury cards. 
+On a Difficulty 6 Health success, or as recipient of a Difficulty 6 First Aid success, roll a die. Even: trade for “Goodbye Gas Exposure.” Odd: trade for “On the Mend.”
+If still in hand at end of scenario, you dissolve into goo and die.",,,Injury
+Readball Graze,Readball Hit,Minor,"An enemy knows everything you perceived and thought for the last x hours. x = your margin on the test to avoid this Injury.
+Discard as recipient of a Difficulty 4 First Aid success. If the First Aid test fails, trade for “Draggy.”",,,Injury
+Readball Hit,Readball Graze,Major,"An enemy knows everything you perceived and thought for the last x hours. x = your margin on the test to avoid this Injury, times 2.
+Discard as recipient of a Difficulty 6 First Aid success. If the First Aid test fails, trade for “Shot.”",,,Injury
+Enhanced Punch,Ultra-Beatdown,Minor,"Roll a die. Even: lose 2 Health. Odd: -1 to Physical tests.
+Discard at end of interval.",,,Injury
+Ultra-Beatdown,Enhanced Punch,Major,"-2 to tests. 
+Trade for “Patched Up” as recipient of a 3-point First aid spend and a 2-point Morale spend (can be from different PCs). 
+If still in hand at end of scenario, gain “Permanent Injury.”",,,Injury
+Spore Exposure,Precancerous,Minor,"At end of next interval, make a Difficulty 4 Health test. On a failure, trade for “Precancerous.” On a success, discard.",,,Injury
+Precancerous,Spore Exposure,Major,"At the end of every scenario after this one, roll a die. Even: lose 1 point of your Health rating; you may not increase your rating through improvement while holding this card. Odd: after a final speech to comrades, your character dies.
+Discard by finding a Carcosan healing potion. (Your GM will provide a plot or subplot making this possible.)",Continuity,,Injury
+Shattering Hand Strike,Razor Hand Strike,Minor,"You can’t take tests or make Pushes. 
+Every hour (game time) you may make a Difficulty 4 Health test. Success: discard.",,,Injury
+Razor Hand Strike,Shattering Hand Strike,Major,"You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out.
+Every hour (game time) you may make a Difficulty 5 Health test or receive a Difficulty 5 First Aid test. Success: trade for “Shattering Hand Strike.”",,,Injury
+Zapped,High Voltage,Minor,"-3 on Athletics and Fighting tests vs. beings like the one who zapped you.
+After an hour of world time, discard by spending 1 Health.",,,Injury
+High Voltage,Zapped,Major,"-2 to your next Physical test, -1 to the Physical test after that. Then trade for “On the Mend.”",,,Injury
+Wrenched Neck,Dupe Bite,Minor,"Lose 1 Health each time you make a Physical test. If your Health is 0, lose 1 Composure. 
+Discard on a Physical success with a margin greater than 1.",,,Injury
+Dupe Bite,Wrenched Neck,Major,Receive a Difficulty 3 First Aid success within 15 minutes of world time or die. Each PC can try First Aid on you once during that time.,,,Injury
+Scratched,Ticking Time Bomb,Minor,"-1 on tests. 
+At end of interval, spend 2 Health to discard. If you don’t have the Health to spend, trade for “Ticking Time Bomb.”",,,Injury
+Ticking Time Bomb,Scratched,Major,"After 24 hours of world time, you feel a compulsion to find a crowd and wander into it, at which point you explode and die, killing everyone within 50 m.
+Discard as recipient of a special blood transfusion from a Specialized Bomb Disposal Medical Unit. Your GM will make this possible in the story, though maybe at some cost or risk to the group.",,,Injury
+Fin Scratch,Jostled,Minor,"At next interval, pay 1 Health and discard.
+If you have no Health to spend, discard after two intervals.",,,Injury
+Jostled,Fin Scratch,Major,"At next interval, pay 1 Health and 1 Athletics and discard.
+If you don’t have the points to spend, discard as recipient of a Difficulty 3 First Aid success.",,,Injury
+Knife Slash,Deep Stab,Minor,"After a successful Physical test, pay 1 Health to discard.",,,Injury
+Deep Stab,Knife Slash,Major,"Counts as 2 Injury cards. You can’t make tests or spend Pushes. After an hour of world time, trade for “On the Mend,” as recipient of a Difficulty 5 First Aid success.",,,Injury
+Knock to the Head,Gunshot Wound,Minor,Discard as recipient of a 1-point First Aid spend.,,,Injury
+Gunshot Wound,Knock to the Head,Major,"-2 to Physical tests. 
+Trade for the card “On the Mend” as recipient of a Difficulty 6 First Aid success. 
+If still in hand at end of scenario, you succumb to your injuries and die.",,,Injury
+Throat Squeeze,Breastbone-Piercing Punch,Minor,"-1 to Physical and Composure tests. 
+Discard as recipient of a First Aid test. Difficulty starts at 6 and drops by 1 at the start of each new interval.",,,Injury
+Breastbone-Piercing Punch,Throat Squeeze,Major,"-2 to Physical and Composure tests, -1 to all other tests. 
+As recipient of a Difficulty 6 First Aid success, trade for “On the Mend.”",,,Injury
+Riot Dog Bite,Riot Dog Mauling,Minor,"-2 to Composure tests. 
+Discard as recipient of a Difficulty 4 Morale success.",,,Injury
+Riot Dog Mauling,Riot Dog Bite,Major,"-2 to Composure tests. 
+After a Composure failure, discard as recipient of a Difficulty 5 Morale success.",,,Injury
+Superhuman Blow,Superhuman Smash,Minor,"Roll a die. Even: Health drops to 0. Odd: Athletics drops to 0. 
+Discard as recipient of a Difficulty 4 First Aid test. If the margin is greater than 2, refresh the affected pool. ",,,Injury
+Superhuman Smash,Superhuman Blow,Major,"Health, Athletics, and Fighting drop to 0. 
+As recipient of a Difficulty 4 First Aid success, trade for “On the Mend.”",,,Injury
+Neuropathic Swipe,Neuropathic Disequilibrium,Minor,Trade for “On the Mend” as recipient of a Difficulty 5 First Aid success.,,Combo,Injury
+Neuropathic Disequilibrium,Neuropathic Swipe,Major,"If this card and the next Shock card you receive are still in hand at the end of the session, the Shock card becomes a Continuity card.
+When you discard a Shock card, make a Difficulty 4 Composure test. On a success, discard this card too.",,,Injury
+Surprise Kidney Stab,Surprise Throat Slash,Minor,"-2 to tests. As a recipient of a Difficulty 5 First Aid success, roll a die. Even: discard. Odd: trade for “On the Mend.”",,,Injury
+Surprise Throat Slash,Surprise Kidney Stab,Major,"You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out. Any PC seeing you take your injury must succeed at Composure vs. Difficulty 5, or take the Shock card “Rattled.”
+As recipient of a Difficulty 5 First Aid success, trade for “Laceration.”",,,Injury
+Laceration,Flesh Wound,Minor,"When called on to make a Physical test, you may choose to take a -2 penalty on the test and then discard this card.",,,Injury
+Flesh Wound,Laceration,Major,-1 to non-Focus tests. Trade for “Laceration” after on a non-Focus success.,,,Injury
+Dinosaur Wound,Dinosaur Bite,Minor,"-2 to Physical tests.
+After an hour or more of world time, as recipient of a Difficulty 5 First Aid test, roll a die. Even: discard. Odd: trade for “On the Mend.”",,,Injury
+Dinosaur Bite,Dinosaur Wound,Major,"Counts as 2 injuries. You can’t make tests.
+After a day or more of world time, as recipient of a Difficulty 6 First Aid success, roll a die. Even: trade for “On the Mend.” Odd: trade for “Dinosaur Wound.”",,,Injury
+Puncturing Beak,Rending Beak,Minor,"If you have 3 Fighting to lose, lose 3 Fighting. Otherwise, -1 to tests.
+Receive a Difficulty 4 First Aid success to discard after any failure.",,,Injury
+Rending Beak,Puncturing Beak,Major,"You can’t make tests or spend Pushes. 
+As recipient of a Difficulty 5 First Aid success, trade for “Puncturing Beak.”",,,Injury
+Psychic Dislocation,A Mere Nip,Minor,"At any time, trade for the Shock card “Hackles Raised.”",,,Injury
+Tentacle Stun,Brainbat Bite,Minor,"Making a Presence test also requires a spend of 1 Health, which does not add to your roll.
+Discard on a Difficulty 5 Health success. You may attempt this test once per interval.",,,Injury
+Brainbat Bite,Tentacle Stun,Major,"-1 to Physical tests, -2 to Composure tests. Trade for “Tentacle Stun” as recipient of Difficulty 5 First Aid success.",,,Injury
+Raking Claws,Savage Mauling,Minor,"-1 to Physical tests; lose 2 Health.
+Discard as recipient of Difficulty 4 First Aid success.",,,Injury
+Savage Mauling,Raking Claws,Major,"-2 to Physical tests; lose 2 Health.
+Trade for “Precarious Recovery” as recipient of Difficulty 5 First Aid success.",,,Injury
+Scalpel to the Face,Power Tool to the Head,Minor,"-1 to Presence tests.
+Receive a Difficulty 4 First Aid success during the session in which you receive this card to remove the Continuity tag.
+If it has the Continuity tag, discard by overcoming an obstacle to gain access to top-notch cosmetic surgery.",Continuity,,Injury
+Power Tool to the Head,Scalpel to the Face,Major,"-1 to tests; lose 2 Health. All other PCs who see you take this Injury must make Difficulty 5 Composure tests or gain the Shock card “Witness to Carnage.”
+Trade for “Precarious Recovery” as recipient of Difficulty 6 First Aid success.",,,Injury
+Nicked,Stabbed,Minor,"-1 on your next Physical or Focus test, then discard.",,,Injury
+Stabbed,Nicked,Major,"-1 to tests (except Preparedness). After one interval, trade for “Nicked” as recipient of a Difficulty 4 First Aid test. ",,,Injury
+Superficial Laceration,Run Through,Minor,"-1 to Physical tests. 
+Discard on a Physical success.",,,Injury
+Run Through,Superficial Laceration,Major,"You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out. 
+As recipient of Difficulty 5 First Aid success, trade for “Stabbed.”",,,Injury
+Powder Burn,GSW,Minor,"-2 to Focus tests. 
+Discard after Focus test that would have succeeded if not for this penalty.",,,Injury
+GSW,Powder Burn,Major,"-1 on tests. Lose 1 Health after each Physical test.
+As recipient of Difficulty 5 First Aid success, trade for “Powder Burn.”",,,Injury
+Psi Pulse,Psi Blast,Minor,"-1 to Focus tests.
+Discard when the person who dealt you this card is cured of the syndrome granting psychic abilities.",,,Injury
+Psi Blast,Psi Pulse,Major,"-1 to Focus. Roll a die: subtract a number of points equal to the result from your Physical pools. You choose distribution.
+Discard when the person who dealt you this card is cured of the syndrome granting psychic abilities.",,,Injury
+Tag,You’re It,Minor,"-1 Fighting vs. this creature’s masters and allies.
+Discard on a Fighting success vs. this creature’s masters or allies.",,,Injury
+You’re It,Tag,Major,-2 Fighting vs. this creature’s masters and allies. -4 Sneaking in locations controlled by this creature’s masters and allies. Discard on a Fighting success vs. this creature’s masters or allies.,,,Injury
+Heart Murmur,Cardiac Arrest,Minor,"Treat any 4 you roll as a 1. 
+If this is the only Injury card you hold at the end of a scenario, discard.",,,Injury
+Cardiac Arrest,Heart Murmur,Major,"All of your Physical pools drop to 0. -4 to Physical tests; -2 to all other tests. 
+Trade for “Heart Murmur” as recipient of a Difficulty 5 First Aid test (must take place during the interval in which you receive this Injury) or after 24 hours world time convalescing in hospital.",,,Injury
+Eel-Like Teeth,Glowdog Bite,Minor,"Discard by spending 1 Health as recipient of Difficulty 4 First Aid success, or after 24 hours world time.",,,Injury
+Glowdog Bite,Eel-Like Teeth,Both,"-1 to Physical tests. 
+Discard by receiving a Difficulty 4 First Aid success and then failing any subsequent test. First Aid Difficulty increases by 1 every time you enter a new interval.",,,Injury
+Savaged,Glowdog Bite,Major,"-2 to Physical tests; -1 to Focus tests.
+Trade for “On the Mend” as recipient of Difficulty 6 First Aid success.",,,Injury
+Hoardling Claw,Hoardling Bite,Minor,"Lose 2 Health.
+As recipient of a Difficulty 4 First Aid test, discard and roll a die. Even: regain 2 Health.",,,Injury
+Hoardling Bite,Hoardling Claw,Major,"Lose 4 Health. -1 on your next Physical test.
+As recipient of a Difficulty 5 First Aid test, discard and roll a die. Even: regain 2 Health.",,,Injury
+Mighty Punch,Toxic Spit,Minor,"-1 to Physical tests. Make a Difficulty 4 Health test. Failure: remain unconscious until end of next interval. 
+Discard after two intervals.",,,Injury
+Toxic Spit,Mighty Punch,Major,"Lose 1 Composure on any failed Focus test.
+Make a Difficulty 6 Health test. Failure: remain unconscious until end of next interval.
+After two intervals, make a Difficulty 4 Health test. Success: discard.",,,Injury
+Gutted,Stab Wound,Major,"Lose 4 Health. You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out. 
+Trade for “Stab Wound” as recipient of a Difficulty 5 First Aid test.
+If still in hand at end of scenario, you succumb to your injuries and die.",,,Injury
+Rampager Bite,Picked Up and Thrown Hard,Major,"-3 to your next test. -1 to subsequent Physical and Focus tests.
+Any time after your next test, trade for “On the Mend” as recipient of Difficulty 5 First Aid success.",,,Injury
+Light Scratch,Deep Gouge,Minor,"Lose 1 Health.
+At end of next interval, discard and roll a die. Odd: lose 1 Health.",,,Injury
+Deep Gouge,Light Scratch,Major,"Roll a die. Odd: Health drops to 0. Even: lose half of your Health pool (rounding up).
+As recipient of Difficulty 4 First Aid success, trade for “On the Mend.”",,,Injury
+Poisoned Scrape,Poisoned Stab,Minor,"When you make a Presence or Focus test and your unmodified die result comes up as an odd number, lose 1 Athletics and 1 Fighting.
+When this happens, roll another die. Even: discard.",,,Injury
+Poisoned Stab,Poisoned Scrape,Major,"When you make a Presence or Focus test, lose 1 Athletics and 1 Fighting.
+As recipient of a Difficulty 5 First Aid test, trade for “Poisoned Scrape.”",,,Injury
+Inky Veins,Organ Rot,Minor,"All Tolls increase by 1. 
+After paying a Toll, roll a die. Even: discard.",,,Injury
+Organ Rot,Inky Veins,Major,"Roll a second die when making any test, subtracting it from your result.
+After failing a test, roll a die. Even: trade for “Inky Veins.”
+If still in hand at end of scenario, make a Difficulty 5 Health test. On a failure, you die.",,,Injury
+Telekinetic Grab & Throw,Telekinetic Beatdown,Minor,"-1 to Physical tests. 
+Discard on a Physical success, or as recipient of 1-point First Aid spend.",,,Injury
+Telekinetic Beatdown,Telekinetic Grab & Throw,Major,"-2 to Physical and Focus tests. 
+After failing one Physical and one Focus test, roll a die. Even: discard. Odd: trade for “On the Mend.”",,,Injury
+Saw Cut,Sawed Throat,Minor,"Lose 1 Health per interval for the next three intervals, then discard. 
+Discard at any time as recipient of Difficulty 4 First Aid success.",,,Injury
+Sawed Throat,Saw Cut,Major,"You can’t take tests or make Pushes, or do anything but lie on the ground bleeding out. 
+Trade for “Saw Cut” as recipient of a Difficulty 6 First Aid test.",,,Injury
+Static Energy Punch,Static Energy Bolt,Minor,"-1 to Fighting tests.
+Discard on a salient Fighting success.",,,Injury
+Static Energy Bolt,Static Energy Punch,Major,"-1 to Physical tests.
+After two intervals, discard and roll a die. Odd: gain “Still Hurting.”",,,Injury
+Electric Bolt,Lightning Bolt,Minor,"Lose 1 Health. -1 to Physical tests.
+Roll a die and spend 1 Health at end of any interval. Even: discard.",,,Injury
+Lightning Bolt,Electric Bolt,Major,"Lose 2 Health. -1 to Physical tests.
+Roll a die and spend 2 Health at end of any interval. Even: discard. Odd: trade for “Electric Bolt.”",,,Injury
+Carcosan Pallor,Carcosan Transformation,Minor,"When you receive this, you may specify that it is a Shock instead of an Injury.
+You can’t attack a supernatural entity before it attacks you.
+Discard by destroying the being whose presence gave you this card.",,,Injury
+Carcosan Transformation,Carcosan Pallor,Major,"To fight a supernatural entity:
+ • You must first succeed at a Difficulty 5 Composure test or make an Intimidation spend
+ • It cannot be talking to you
+Discard by destroying the being whose presence gave you this card.",,,Injury
+Bruised,Battered,Minor,"The next time you try to make an Interpersonal Push, roll a die. Even: discard. Odd: you can’t make the Push.",,,Injury
+Battered,Bruised,Major,"-3 on your next Physical test. -1 on the Physical test after that, then discard.",,,Injury
+Seeing Stars,Dented Skull,Minor,-2 on Sense Trouble tests until end of session.,,,Injury
+Dented Skull,Seeing Stars,Major,"You always fail Physical tests. -2 to all other tests. 
+After four hours of world time, trade for “Seeing Stars.”",,,Injury
+“But This is Wondrous Strange!”,Soul Strike,Minor,"-2 to Focus. (-1 if you have the Occultism ability.)
+Discard on an Occultism Push from any character, or on a Focus success.",,,Shock
+Soul Strike,“But This is Wondrous Strange!”,Major,"Discard when the ghost is destroyed or banished from the world of the living. If still in hand at the end of the scenario, your hair turns as white as bone.",,Combo,Shock
+Overstepped Bounds,Wracked by Remorse,Minor,"-1 on your next Composure test, then discard.",,,Shock
+Wracked by Remorse,Overstepped Bounds,Major,"Your next Composure test automatically fails, with a margin of 2. Then discard.",,,Shock
+Oh Dear,Bit of a Sticky Wicket,Minor,Discard by finding a means of escape.,,,Shock
+Bit of a Sticky Wicket,Oh Dear,Major,"-1 to Focus.
+When you escape your current predicament, discard and roll a die. Odd: gain Shock card “Unnerved.”",,,Shock
+Unnerved,Agitated,Minor,Discard by using an investigative ability to gain information.,,,Shock
+Agitated,Unnerved,Major,"-1 to Presence.
+When you use an investigative ability to gain information, roll a die. Even: discard.",,,Shock
+Uncertainty,Questioning Your Senses,Minor,Discard when something you thought might be unreal turns out to be real.,,,Shock
+Questioning Your Senses,Uncertainty,Major,"-1 to Presence.
+Discard when something you thought might be unreal turns out to be real.",,,Shock
+Enthralled,Alien Passion,Minor,"You may not act against the interests of the entity responsible for your taking this card, as you reasonably understand them.
+When the entity harms another PC, roll a die. Even: discard.
+Discard if the entity harms you or is destroyed (not by you, of course.)",,,Shock
+Alien Passion,Enthralled,Major,"You love the entity responsible for your taking this card and may not act against its interests, as you reasonably understand them.
+Discard when the entity is destroyed (not by you, of course.)",,,Shock
+Influence,Violent Impulse,Minor,"The GM may require you to make a Difficulty 5 Composure test. On a failure, you take a subtly destructive, barely detectable action, specified by the GM, that would please the entity that gave you this card. After completing the action, roll a die, discarding this card on an even result. GM must wait two intervals before triggering the effect again.
+Discard when the entity is destroyed.",,,Shock
+Violent Impulse,Influence,Major,"After two or more intervals, the GM specifies that you strike violently against another PC. Test Fighting, spending 2 points (if available.) The PC tests Athletics, with your result as the Difficulty, taking the Injury card “Abrasion”, “Laceration”, “Scratched”, or “Roughed Up” (GM chooses.)
+After completing the action, roll a die, discarding this card on an even result. GM must wait two intervals before triggering the effect again.
+Discard when entity is destroyed.",,,Shock
+Alarming Vision,Ghastly Vision,Minor,"-1 Fighting vs your main foe and its allies. +1 Fighting vs your main foe’s rivals.
+When you gain important information about your main foe, roll a die. Meet or beat the number of Shock and Injury cards you hold to discard.",,,Shock
+Ghastly Vision,Alarming Vision,Major,"All PCs take -1 Fighting vs your main foe and its allies. All gain +1 Fighting vs your main foe’s rivals.
+When you aid your main foe, roll a die. Even: discard.",,,Shock
+Embarrassed,Humiliated,Minor,"Nonlethal. -1 to Focus.
+Discard on a Composure failure.",,,Shock
+Humiliated,Embarrassed,Major,"Nonlethal. -1 to Presence.
+Discard by winning over a difficult or intimidating witness.",,,Shock
+Unease,Dread,Minor,Your next Presence or Focus test takes a -1 penalty. Then discard.,,,Shock
+Dread,Unease,Major,"-1 to Presence and Focus tests. After any such test, roll a die. Even: trade for “Unease.”",,,Shock
+Pity,Sick with Worry,Minor,"Lose 2 Health and 2 Composure when you make a Push.
+You received this card through concern for another. Discard by at least partially alleviating that character's distress. ",,,Shock
+Sick with Worry,Pity,Major,"Lose all of your Health or Composure pool, whichever is higher, when you make a Push. If the pools are equal, you choose.
+You received this card through concern for another. Discard by conclusively solving that character's main problem.",,,Shock
+Jinx,Ill-Omened,Minor,"Player to your left takes -1 to tests.
+Discard when that player fails a test.",,,Shock
+Ill-Omened,Jinx,Major,"When your group starts its next fight, its margin before anyone tests Fighting is -2, not the usual 0.
+Discard when your group loses a fight.",,,Shock
+Bad Place,Awful Place,Minor,Counts as a Shock card only when you are in the place where you got it.,,,Shock
+Awful Place,Bad Place,Major,"-1 to Presence.
+Discard if, while in the awful place, you find a core clue or make a Push.",,,Shock
+Rueful,Self-Reproachful,Minor,"If the murderer is still at large or unidentified at the end of a session, lose 2 Composure.
+Trade for “Self-Reproachful” if you have 0 Composure in your pool at end of scenario.",,,Shock
+Self-Reproachful,Rueful,Major,"You can’t refresh Composure in mid-scenario.
+If the murderer is found to be human, discard this card by bringing the murderer to justice.
+If the murderer is inhuman, discard by killing the murderer.",Continuity,,Shock
+Skewed Reality,Reality Horror,Minor,"-1 to Focus.
+When you get information from a GMC other PCs are reluctant to speak with, roll a die. Even: discard. Odd: give this Shock card to another player.",,,Shock
+Reality Horror,Skewed Reality,Major,"-1 to Focus.
+At the end of a scene in which you take the lead in gaining a core clue from a GMC, roll a die. Even: discard. Odd: give this Shock card to another player.",,,Shock
+Rattled,A Diverting Indiscretion Will Put This In Perspective,Both,Your next test takes a -1 penalty. Then discard.,,,Shock
+A Diverting Indiscretion Will Put This In Perspective,Rattled,Major,"-1 to Presence. 
+Discard by taking a risk to indulge a vice.",,,Shock
+Racing Pulse,Rampant Distrust,Minor,Lose 1 Health each time you attempt a Physical test. Discard after your next Physical success.,,,Shock
+Rampant Distrust,Racing Pulse,Major,-1 to Composure against mental hazards. Discard by making a false alarm that creates a risk for any player character.,,,Shock
+More Things In Heaven and Earth,Anyone Could Be Secretly Dead,Minor,"When testing Composure due to a supernatural event, you get a +2 bonus when your die roll is even, and a -2 penalty when odd. 
+Discard when you succeed at such a test.",,,Shock
+Anyone Could Be Secretly Dead,More Things In Heaven and Earth,Major,"You can’t make Interpersonal Pushes.
+Discard when your check to see if someone really has a material form causes you to pay a price.",,,Shock
+Cause for Concern,Time to Panic,Minor,Discard when another PC makes a successful test.,,,Shock
+Time to Panic,Cause for Concern,Major,"-1 to Focus.
+Make a tick mark whenever another PC succeeds at a test. Start over on any failure. Discard when you have three tick marks.",,,Shock
+The Shudders,Shaken,Minor,"Roll a die; lose that number of Composure points, noting the number lost. If your Composure is already 0, trade for “An Image Seared in the Mind.”
+Discard after a night’s sleep. When you discard, roll a die. Even: regain those lost Composure points.",,,Shock
+Shaken,The Shudders,Major,-1 to Composure.,,,Shock
+Hardened,Dead-Eyed Stare,Minor,"When you make a ruthless choice that saves a life, spend 3 Composure to discard.",Continuity,,Shock
+Dead-Eyed Stare,Hardened,Major,"Once per session, you may make a free Intimidation Push. All PCs lose 2 Composure.
+When you make a ruthless choice that saves a life, roll a die. Even: trade for “Hardened.”",Continuity,,Shock
+Superstition,Magical Thinking ,Minor,"-1 to Focus.
+Discard by taking a risk to avoid bad luck.",,,Shock
+Magical Thinking ,Superstition,Major,"Roll a die when receiving this card. Odd: you can only make even-numbered point spends. Even: you can only make odd-numbered spends.
+Discard when an apparently supernatural event has a logical explanation.",,,Shock
+Appalled,A Dish Served Cold,Minor,"-1 to Composure. 
+Discard by bringing justice to the torturer.",,,Shock
+A Dish Served Cold,Appalled,Major,"-1 to Composure. 
+Discard, and refresh your Composure pool, by playing a role in the torturer’s demise. ",,,Shock
+The Price of Failure,A Morbid Scene,Minor,"You can’t spend Improvement points.
+Discard by pursuing a lead the team first learned of more than an hour ago (table time.)",Continuity,,Shock
+A Morbid Scene,The Price of Failure,Major,"You can’t spend Improvement points. Lose 1 Health after any failed test.
+Discard by pursuing a lead the team first learned of more than two hours ago (table time.)",Continuity,,Shock
+Whisper of the Sign,Song of the Sign,Minor,"While in your presence, other player characters suffer -1 to Composure.
+When another player character fails a Composure test by a margin of 1, roll a die. Even: discard.",,,Shock
+Song of the Sign,Whisper of the Sign,Major,"-2 to Composure; -1 to other Presence tests.
+You may refresh any pool other than Composure by committing murder. 
+Discard as recipient of an Inspiration or Reassurance Push, or by making a Steel Push.",Continuity,,Shock
+Butterflies,Collywobbles,Minor,Discard at end of scene.,,,Shock
+Collywobbles,Butterflies,Major,"-1 to Focus.
+Discard by nullifying the consequences of a previous setback.",,,Shock
+Humans are the True Monsters,Shattered Illusions,Minor,"-1 to Presence. 
+Discard when you witness an act of redemptive altruism.",,,Shock
+Shattered Illusions,Humans are the True Monsters,Major,"Take a Presence penalty equal to the number of Shock cards held by the PC (other than you) holding the highest number of Shock cards.
+Discard when you witness an act of redemptive altruism.",Continuity,,Shock
+A Touch of the Shakes,An Image Seared in the Mind,Minor,"-1 to Focus. 
+Discard by engaging in a restful activity.",,,Shock
+An Image Seared in the Mind,A Touch of the Shakes,Major,"-1 to Focus.
+At the end of any interval, make a Difficulty 3 Composure test. Success: discard.
+Becomes a Continuity card if in hand at end of scenario.",,,Shock
+The Curse is Thinking About Being Cursed,Cursed,Minor,"+1 to Sense Trouble. Lose 1 Health on any character’s Sense Trouble success. 
+Discard when the person who cursed you releases you from the curse or dies.",Continuity,,Shock
+Cursed,The Curse is Thinking About Being Cursed,Major,"Discard when the person who cursed you releases you from the curse or dies. 
+If still in hand at end of scenario, you inexplicably die.",,,Shock
+A Gnawing at the Back of the Mind,The Will Erodes,Minor,"-1 to Composure. 
+When you take another Shock card, spend 1 Composure to discard this one.",,,Shock
+The Will Erodes,A Gnawing at the Back of the Mind,Major,"+1 to Tolls of supernatural creatures. 
+When you take another Shock card, spend 1 Composure to discard this one.",,,Shock
+Tremors,Hackles Raised,Minor,"Your next Interpersonal Push costs 2 Pushes. 
+Discard when you make an Interpersonal Push.",,,Shock
+Hackles Raised,Tremors,Major,"Pay 1 Health or Composure each time a player character (including you) attempts a Sense Trouble test.
+Trade for “The Tremors” when your Health and Composure pools both equal 0.",,,Shock
+Music of the Night,Point of No Return,Minor,"When you are about to fight the scenario’s main foe, roll a die. On an odd result, -1 to Fighting until end of scenario.
+Discard on a Fighting success against the scenario’s main foe.",,,Shock
+Point of No Return,Music of the Night,Major,"If you meet the scenario’s main foe, -1 to Fighting until end of scenario.
+Discard on a Fighting success against the scenario’s main foe.",,,Shock
+The Mind Reels,The Will Erodes,Major,+2 to Tolls of supernatural creatures. Discard when you destroy (or deliver to the reliable safekeeping of your allies) a copy of The King in Yellow.,Continuity,,Shock
+Witness to Carnage,Existence is a Meat-Grinder,Minor,"-1 to all tests. 
+Discard as recipient of a Push. Explain why that Push would help with this.",,,Shock
+Existence is a Meat-Grinder,Witness to Carnage,Major,"Tests take a penalty equal to the number of Shock cards you have in hand. 
+Discard after participating in an event that restores your faith in humanity.",Continuity,,Shock
+Haunted,Rationality’s Cruel Veil,Minor,"Tests take a penalty equal to the number of Shock cards you have in hand. 
+Discard on a successful test that aids the group against supernatural horror.",,,Shock
+Rationality’s Cruel Veil,Haunted,Major,"All tests take a penalty equal to the number of Shock cards you have in hand, plus 1.",,,Shock
+Stunned and Saddened,Waves of Grief,Minor,"Lose 1 Composure at the end of each scene in which the deceased is mentioned.
+At end of session, if you have more Composure in your pool than any other player character, discard this card.",,,Shock
+Waves of Grief,Stunned and Saddened,Major,"Whenever you regain lost Composure, subtract 1 from the number of points you would otherwise regain.
+Discard by decisively defeating or countering the being or force that caused the death you mourn.",Continuity,,Shock
+A Beastly Sight,If Only You Could Forget,Minor,"Tests take a penalty equal to the number of Shock cards you have in hand. 
+Discard by killing or helping to kill the being, or another one like it.",,,Shock
+If Only You Could Forget,A Beastly Sight,Major,"All tests take a penalty equal to the number of Shock cards you have in had, plus 1. 
+Discard by killing or helping to kill the being, or another one like it.",,,Shock
+"A Trick of the Light, Surely",No Mask! No Mask!,Minor,Discard on a successful test that furthers the anti-Carcosa cause.,,,Shock
+No Mask! No Mask!,"A Trick of the Light, Surely",Major,"-1 to Composure tests when not in the presence of the supernatural. -2 when in the presence of the supernatural.
+On a successful test that furthers the anti-Carcosa cause, trade for “A Trick of the Light, Surely.”",Continuity,,Shock
+Must Have Been a Hallucination,Reality Collapse,Minor,"-1 to Sense Trouble. 
+Discard when you uncover a core clue.",,,Shock
+Reality Collapse,Must Have Been a Hallucination,Major,"-2 to Sense Trouble. Lose 1 Health each time you make a Push. 
+Trade for “Must Have Been a Hallucination” on a success that restores normality to the world.",,,Shock
+A Crossed Line,Out of Control,Minor,[[no card text]],Continuity,,Shock
+Out of Control,A Crossed Line,Major,-1 to Composure to contain your emotions or resist destructive urges.,Continuity,,Shock
+The Self Crumbles,The Mind Reels,Major,"+3 to Tolls of supernatural creatures.
+Trade for “The Mind Reels” when you destroy (or deliver to the reliable safekeeping of your allies) a copy of The King in Yellow.",Continuity,,Shock
+Moral Vertigo,The Self Crumbles,Major,"When you are in a position to kill an adversary in cold blood, score a Difficulty 4 Composure success or give in to that impulse.
++2 to Sense Trouble when the danger emanates from Carcosa or its minions. 
+Trade for “The Self Crumbles” when you destroy (or deliver to the reliable safekeeping of your allies) a copy of The King in Yellow.",Continuity,,Shock
+Alien Shores,Unearthly Journey,Minor,"-1 to all tests. 
+Discard by succeeding at a test that harms the schemes of the King in Yellow or his minions.",Continuity,,Shock
+Unearthly Journey,Alien Shores,Major,"-2 to all tests. 
+Trade for “Alien Shores” by succeeding at a test that harms the schemes of the King in Yellow or his cat’s-paws. 
+If still in hand at end of scenario, counts as 2 Shock cards and becomes a Continuity card.",,,Shock
+"When You Look In the Mirror, the King Stares Back",No Mask! No Mask!,Major,"-1 to all tests. 
+Lose 1 Push at the start of each scenario. 
+At the start of a scenario, spend all your Composure points to trade for “No Mask! No Mask!”",Continuity,,Shock
+They Broke You,Avenger,Minor,"When you see an act of torture or violent bullying, you must make a Difficulty 4 Composure test to do anything other than hunch over, frozen in panic.
+Trade for “Avenger” by succeeding at the test and then taking decisive action against the perpetrator.",Continuity,,Shock
+Avenger,They Broke You,Major,"When you see an act of torture or violent bullying, you must take decisive action against the perpetrator, or suffer -1 to Presence for the rest of the scenario.
+When you take decisive action, roll a die. Even: discard.",Continuity,,Shock
+Distracted,[Secondary],[Secondary],"-1 to Focus. 
+After a Focus failure, spend 1 from the pool of any Focus ability to discard this card.",,,Shock
+Visibly Distraught,[Secondary],[Secondary],"-1 to Presence. 
+After a Presence failure, spend 1 point from the pool of any Presence ability to discard this card.",,,Shock
+Do Not Go Forth Into the Agora,[Secondary],[Secondary],"Make a Difficulty 4 Sense Trouble test every time you enter a place you have never been before. On a failure, -1 to all tests while in that location.
+Discard when you take an Injury card in a location you are very familiar with.",,,Shock
+Weird Insight,[Secondary],[Secondary],"Spend 3 Composure to allow another player to discard a non-Continuity Shock card.
+Each time you do this, roll a die. On an odd result, this becomes a Continuity card.",,,Shock
+Knockout Dart,"Broken Bone
+[Injury]",Major,"Unless your side routs the cannibals, you are captured and wake up in a basement veal-fattening pen. When the rest of the group rescues you from an appointment with a roasting spit, trade for Shock card “Humans are the True Monsters.”",,,Shock
+Not a Significant Bullet,"Shot
+[Injury]",Minor,"On your next test, roll a die and discard this card. Even result: +1 on test. Odd: -2 on test.",,,Shock
+The Atavistic Terror of an Animal Attack,"Bitten 
+[Injury]",Minor,"Lose 2 Health when you make a Push. If you can’t spend the points, you can’t make the Push.
+Discard by establishing your mastery over this type of creature.",,,Shock
+Brain Fever,Shown Your Own Horrific Death,Minor,"When you encounter the Sinister Mesmerist, -2 to Composure and -1 to Health until end of session.
+Discard when Sinister Mesmerist is, beyond a shadow of a doubt, dead.",Continuity,,Shock
+Shown Your Own Horrific Death,Brain Fever,Major,"-2 to Composure; -1 on all other tests. 
+Discard when Sinister Mesmerist is, beyond a shadow of a doubt, dead.",Continuity,,Shock
+Fed Upon,Thought Drain,Minor,"-1 to Composure. 
+Discard on a Composure success.",,,Shock
+Thought Drain,Fed Upon,Major,"-1 to any Presence test on which you spend ability points. 
+If you gained this card while in Carcosa, discard when you leave it.",,,Shock
+Intoxicating Bite,"Throat Punctures
+[Injury]",Major,"Each time you attempt to act against the interest of the vampire who bit you, you must succeed at a Difficulty 6 Composure test to proceed. 
+Trade for “Haunted” as recipient of an Occultism Push.",,,Shock
+Enrapturing Bite,Vampiric Death Strike,Minor,"You can’t take part in fights against vampires and actively interfere with your comrades’ attempts to fight them. -2 Fighting for PCs against vampires in your presence. -2 to Composure to resist vampire commands.
+Discard when the vampire that bit you is destroyed.",,,Shock
+Vampiric Death Strike,Enrapturing Bite,Major,"Counts as 2 Injuries and 1 Shock. Vampire may choose to instead deliver an “Enrapturing Bite.” Discard after vampire is killed and you become recipient of a Difficulty 7 First Aid success. 
+If still in hand at end of scenario, your character becomes an undead foe controlled by the GM and you create a new one.",,Combo,Shock
+"Snakes, Our Oldest Fear","Venomous Fangs
+[Injury]
+",Minor,"Roll a die. Even: lose 1 Composure. Odd: lose 2 Composure.
+Discard after a Composure success.",,,Shock
+Keening of the Damned,Hellish Aria,Minor,"Whenever you hear music, or a loud or strange sound, -1 to Presence until the next interval.
+Discard at end of any scenario, by spending 2 Composure.",Continuity,,Shock
+Hellish Aria,Keening of the Damned,Major,"Whenever you hear music, or a loud or strange sound, this also becomes an Injury card, and remains so until the end of the next interval.
+Discard whenever it is an Injury card by spending 3 Composure.",Continuity,,Shock
+Dulled Thinking,Throbbing Migraine,Minor,"Non-lethal. -1 to Focus tests. 
+Discard on a Focus failure.",,,Shock
+Throbbing Migraine,Dulled Thinking,Major,"Non-lethal. -1 to Focus tests. 
+On a Focus failure, spend 2 Health to discard.",,,Shock
+Disbelief,Weird Weapon Trauma,Minor,"-1 to Focus tests. 
+Discard on any Focus success.",,,Shock
+Weird Weapon Trauma,Disbelief,Major,"-1 to Composure tests involving unearthly weapons.
+Discard when you disassemble a captured weird weapon.",,,Shock
+Bereft,Rudderless,Minor,"Before spending Morale to refresh another PC’s Composure, you must roll a die, getting an even result.
+Discard as recipient of a 3-point Morale spend.
+Use in: W, A",,,Shock
+Rudderless,Bereft,Major,"PCs can spend Morale only after rolling a die and getting an even result.
+Discard as recipient of a Leadership spend.",,,Shock
+What th—?,World Gone Mad,Minor,"-1 to your next Presence test. 
+Discard when a PC (yourself included) discards an Injury card taken in a fight in which your side was targeted by a weird weapon.",,,Shock
+World Gone Mad,What th—?,Major,"-1 to Presence tests. 
+Discard when a PC (yourself included) discards an Injury card taken in a fight in which your side was targeted by a weird weapon.",,,Shock
+Profaned Memories,Haunted,Major,"When you mention or talk about your fallen comrade for the first time in any scene, make a Difficulty 4 Composure test. On a failure, this becomes a Continuity card.",,,Shock
+Hollow Promise,Resounding Failure,Minor,"Your Morale pool drops to 0.
+You can’t refresh Morale in mid-scenario or make Reassurance spends.
+Discard by successfully protecting a civilian.",Continuity,,Shock
+Resounding Failure,Hollow Promise,Major,"Your Morale pool drops to 0. Morale spends by other players do not refresh your Composure. You can’t make Reassurance spends.
+When you successfully protect a civilian, roll a die. On an even result, discard.",Continuity,,Shock
+Tenuous Reality,Life’s Value Ebbs,Minor,"-1 to Focus tests. 
+When the discard condition of another Shock card occurs, you may discard this card instead.",,,Shock
+Life’s Value Ebbs,Tenuous Reality,Major,"-2 to Composure tests. You may choose to take a +1 Fighting bonus when using a weird weapon, but that makes this a Continuity card.",,,Shock
+Revulsion,Nightmare Fuel,Minor,"Lose 2 Morale.
+Discard after three hours of world time, or when you gain another Shock card.",,,Shock
+Nightmare Fuel,Revulsion,Major,"You can’t spend Morale points.
+After six hours sleep (world time) in a safe location, roll a die. Discard on an even result.
+Becomes a Continuity card if still held at end of scenario.",,,Shock
+Lily-Livered,Yellow-Bellied,Minor,"Lose 2 Morale.
+Discard on a salient Battlefield or Fighting success, refreshing 2 Morale.",,,Shock
+Yellow-Bellied,Lily-Livered,Major,"Roll a die; lose that number of Morale points, or 2 Morale, whichever is higher.
+Discard on a Fighting success with a margin greater than 1.",,,Shock
+Flirtation with Carcosa,Embracing Carcosa,Minor,"-1 to Composure tests. 
+Discard when a success saves you from taking a Shock card.",,,Shock
+Embracing Carcosa,Flirtation with Carcosa,Major,Composure tests take a penalty equal to the number of Shock cards you hold.,,,Shock
+Sinking Feeling,Panic,Minor,"Lose 1 Morale.
+Discard by getting off the boat.",,,Shock
+Panic,Sinking Feeling,Major,"Other PCs can’t spend Morale to refresh your Composure or Scrounging to refresh your Battlefield.
+When the danger has passed, roll a die. Even: discard. Odd: trade for “Rattled.”",,,Shock
+Those Telltale Fins,"Shark Bite
+[Injury]",Minor,"-1 to Focus tests.
+When you get to shore, roll a die. Even: discard. Odd: discard after two salient Focus failures.",,,Shock
+Ghost Touch,The Vengeful Dead,Minor,"Lose 1 Composure each time one or more players breaks from the action to reference or discuss pop culture. 
+Discard as recipient of a Difficulty 4 Morale test.",,,Shock
+The Vengeful Dead,Ghost Touch,Major,"Lose 1 point from your lowest pool each time one or more players breaks from the action to reference or discuss pop culture. 
+Discard after a ghost encounter that does not leave you with a Shock or Injury card.",,,Shock
+Tastes Like Chicken,A Crossed Line,Minor,"-2 to Composure tests. 
+At end of scenario, if your Composure is higher than 3, discard. Otherwise, trade for “A Crossed Line.”",,,Shock
+A Crossed Line,Tastes Like Chicken,Major,[No card text],Continuity,,Shock
+Callous,Pit of Remorse,Minor,"When you become the recipient of a Morale spend, lose 1 Composure.
+Discard by taking a risk to help a GMC Loyalist soldier.",,,Shock
+Pit of Remorse,Callous,Major,"When presented with an opportunity to save a wounded GMC Loyalist soldier from death or further harm, you must make a Difficulty 6 Composure test to avoid doing so.
+When you do act and clearly save the character’s life, roll a die. Discard on an even result.",Continuity,,Shock
+Rat in a Can,Panic,Both,"Lose 1 Composure and 1 Morale every 15 minutes (game time).
+When the danger has passed, discard as recipient of a 1-point Scrounging spend.",,,Shock
+Tentacled Doom,Rat in a Can,Major,"-1 to Presence tests while in sight of the ocean, -2 to Presence tests while underwater.
+Does not count as a Shock card at the beginning of a scenario. Becomes a Shock card if you see the ocean or go underwater.",Continuity,,Shock
+No Blood More Cold,Atrocity,Minor,"-2 to Composure tests.
+During any scenario after the one where you gained this card, discard by spending 6 Composure.",Continuity,,Shock
+Atrocity,No Blood More Cold,Major,"-2 to Composure tests.
+At beginning of any scenario, spend 3 Composure and roll a die. On an even result, trade for “No Blood More Cold.”",Continuity,,Shock
+Overwhelmed,Pervasive Distrust,Minor,"Before any test, roll a die. Odd: lose 1 point from the ability being tested.
+Discard when you use an Investigative ability to get a core clue.",,,Shock
+Pervasive Distrust,Overwhelmed,Major,"Lose 3 Composure each time another investigator makes an Interpersonal Push.
+Discard by throwing a punch at a GMC who seems to be up to something.",,,Shock
+Beside Yourself,Rattled,Minor,"-1 to tests. 
+Discard on the next test you miss by 1.",,,Shock
+Shell-Shocked,"Hit Bad
+[Injury]",Minor,"-1 to Presence and Focus tests. 
+After your next failed Presence or Focus test, you may discard as recipient of Difficulty 4 Morale test.",,,Shock
+Hellish Reptile-Crab,Reality Drift,Minor,"You and all PCs who have seen the creature up close take -1 to Focus tests. Penalties from multiple “Hellish Reptile-Crab” cards do not stack.
+On any failed Composure test, roll a die. Even: all “Hellish Reptile-Crab” cards in play are discarded.",,,Shock
+Reality Drift,Hellish Reptile-Crab,Major,"When you score a success with a margin of 2, it instead becomes a failure with a margin of 2.
+On a failure with a margin of 2, trade for “Unease.”",,,Shock
+Ghost Sighting,The Mourned Dead,Minor,"-1 to Presence tests. 
+Discard by spending a Push.",,,Shock
+The Mourned Dead,Ghost Sighting,Major,-1 to Fighting and Composure tests.,,,Shock
+Its Jellied Visage,You Saw the Tendrils Go In,Minor,"Any time another PC tries to use First Aid on you, make a Difficulty 4 Composure test. On a failure, you panic and punch your healer, giving that character the Injury card “Punched” and may then discard this card.",,,Shock
+You Saw the Tendrils Go In,Its Jellied Visage,Major,"Any time another PC tries to use First Aid on you, make a Difficulty 4 Composure test. On a failure, you panic and punch your healer, giving that character the Injury card “Punched.” Then discard on a Difficulty 5 Composure success.",,,Shock
+Did Anyone Else See That?,"You Saw It, So It Must Be Real",Minor,"-1 to Sense Trouble tests. 
+Discard as recipient of Difficulty 4 Morale success.",,,Shock
+"You Saw It, So It Must Be Real",Did Anyone Else See That?,Major,"-2 to Sense Trouble tests, -1 to Composure tests. 
+Discard by spending 2 Sense Trouble and 1 Composure.",,,Shock
+Faulty Perceptions,Distorted Perceptions,Minor,"-2 to Presence tests. You must behave as if the thing you’re seeing is absolutely, literally real. Discard by spending 2 Sense Trouble and 2 Composure, or on the conclusive defeat of the force that has confused your senses.",,,Shock
+Distorted Perceptions,Faulty Perceptions,Major,"-2 to Presence tests. You must behave as if the thing you’re seeing is absolutely, literally real. 
+Discard on the conclusive defeat of the force that has confused your senses.",,,Shock
+"No, It Can’t Be!",I Remember Him Like He Was Real,Minor,"+1 to Sense Trouble tests.
+When you fail a Sense Trouble test in the presence of one or more innocent GMCs, make a Difficulty 4 Composure test. Failure: you attack and seriously wound a GMC chosen by the GM, then discard this card.",,,Shock
+I Remember Him Like He Was Real,"No, It Can’t Be!",Major,"You continue to behave as if the dead, impersonated comrade is alive, in your presence, and talking to you. Other PCs take -1 to Composure.
+Discard when you pay a price for this behavior.",,,Shock
+Cortisol Spike,"Bullet Wound
+[Injury]",Minor,-1 to Composure tests. Discard at end of session.,,,Shock
+Why Can’t I Just Shoot Him?,Probably I Should Shoot Him,Minor,"You recognize this false comrade as an alien being but can’t break its mental hold on you in order to act against it. 
+Discard when a comrade attacks it, or when it departs.",,,Shock
+Probably I Should Shoot Him,Why Can’t I Just Shoot Him?,Major,"Whenever you meet a Loyalist soldier for the first time, make a Difficulty 4 Composure test. Failure: -1 on all Focus and Presence tests until next interval. 
+Discard when you get a margin of 3 or more on that test.",,,Shock
+Hungry Like the…,Lycanthropy,Minor,"-1 on your next Focus test.
+Discard by killing and eating a game animal, raw.",,,Shock
+Lycanthropy,Hungry Like the…,Major,"-1 to Focus tests.
+You believe that you will turn into a werewolf at the next full moon (three days from now unless the GM has already established a different date) and behave accordingly.
+The morning after the next full moon, roll a die. Even: discard. Odd: trade for “Hungry Like the…”",Continuity,,Shock
+Aide to the Beast,Cultist of Gévaudan,Minor,"You gain a new game statistic, Beast, which starts at 1. 
+Add 1 to Beast each time you learn of the beast killing someone, and 2 each time you arrange for the beast to kill someone.
+Subtract 1 from Beast when it performs a significant service for the Loyalists.
+Take a penalty to Composure tests equal to your Beast rating.
+Discard when the beast is destroyed.",Continuity,,Shock
+Cultist of Gévaudan,Aide to the Beast,Major,"You gain a new game statistic, Beast, which starts at 1. 
+Add 1 to Beast each time you learn of the beast killing someone, and 2 each time you arrange for the beast to kill someone.
+Subtract 1 from Beast when it performs a significant service for the Loyalists.
+While the beast is alive, take a penalty to Composure tests equal to your Beast rating.",Continuity,,Shock
+Unearthly Sounds,Melted Perceptions,Minor,"-1 to Focus tests.
+When you correctly identify the origin of the sounds, roll a die. Even: discard.",,,Shock
+Melted Perceptions,Unearthly Sounds,Major,"Roll a die when you receive this card. Odd: -1 to Focus tests. Even: -1 to Presence tests.
+Discard as recipient of Difficulty 4 First Aid success.",,,Shock
+Forehead Vein,It Eats You Up,Minor,"+1 to Fighting tests.
+After you take part in a fight and win, discard.",,,Shock
+It Eats You Up,Forehead Vein,Major,"Discard by conclusively striking against an old foe. 
+If still in hand at end of scenario, roll a die. Odd: becomes a Continuity card.",,,Shock
+Pang of Doubt,Lines Get Muddy,Minor,"The next time the GM calls for a Composure test, roll a die first. Odd: -1 on your test. Even: discard.",,,Shock
+Lines Get Muddy,Pang of Doubt,Major,"-1 to Focus and Presence tests.
+Discard when you take an Injury card.",,,Shock
+False Alarm,The Yips,Minor,"-1 to Sense Trouble tests; +1 to Composure tests.
+On your next Composure failure, lose 1 Composure and discard this card.",,,Shock
+The Yips,False Alarm,Major,"x = the result of a die roll, plus 1.
+Lose x Composure.
+Discard as recipient of an x-point Morale spend.",,,Shock
+"Dammit, Man","Seriously, Dammit",Minor,"-1 to Focus tests.
+Discard by paying a price to gain redemption.",,,Shock
+"Seriously, Dammit","Dammit, Man",Major,"-2 to Focus tests.
+Discard by doing something redemptive that hurts you politically.",,,Shock
+Twinge,Spasm of Guilt,Minor,"-1 on Focus tests. 
+After a failed Focus test, discard as recipient of 1-point Morale spend.",,,Shock
+Spasm of Guilt,Twinge,Both,"-2 to Focus tests.
+Discard by taking a risk to atone for your past.",,,Shock
+Grim Flashback,You Know You Broke,Minor,"-1 to Morale tests.
+Discard as recipient of a Difficulty 4 Morale success.",,,Shock
+You Know You Broke,Grim Flashback,Major,"Roll a die: lose Morale equal to the result.
+On a Fighting success, roll a die. Even: discard.",,,Shock
+The Monster Inside,Spasm of Guilt,Major,Roll a die: lose Morale equal to the result.,,,Shock
+Sullied,Expedience,Minor,"-1 to Presence tests for each Shock card you hold.
+Spend 1 Morale and roll a die. Even: discard. Odd: trade for “A Diverting Indiscretion Will Put This in Perspective.”",,,Shock
+Expedience,Sullied,Major,"-2 to Presence tests.
+Discard by doing the right thing, even though it will hurt you politically.",,,Shock
+Loyalty Chip (Intact),Loyalty Chip (Broken),Minor,"Discard by taking a risk to significantly aid an enemy.
+As recipient of Difficulty 4 First Aid success, trade for “On the Mend.”",,,Shock
+Loyalty Chip (Broken),Loyalty Chip (Intact),Major,"Discard by taking a risk to significantly aid an enemy.
+As recipient of Difficulty 4 First Aid success, roll a die and gain the Injury card “Draggy.” Even: discard.",,,Shock
+Tuner Dislocation,Tuner Habit,Minor,"At end of each interval, roll a die. Odd: lose 1 point from a Focus ability of your choice. Even: discard.",,,Shock
+Tuner Habit,Tuner Dislocation,Major,"When you fight without using a tuner, make a Difficulty 4 Composure test. On a failure, also gain the Shock card “Distracted.”
+When you have “Distracted” and fight with a tuner, roll a die. Even: discard this and “Distracted.”",,,Shock
+Mental Probe,It Licked Your Mind,Minor,"Roll a die. Even: -1 to your next Focus test, then discard. Odd: -1 to your next Presence test, then discard.",,,Shock
+It Licked Your Mind,Mental Probe,Major,"-1 to Focus and Presence tests. 
+Discard when the parasite is destroyed.",,,Shock
+Stolen Memory,Stolen Loyalty,Minor,"-1 to Focus tests. 
+Discard when you destroy or help to destroy the being who did this to you.",,,Shock
+Stolen Loyalty,Stolen Memory,Major,"When a GMC flashes the Yellow Sign at you, you must make a Difficulty 4 Composure test to avoid obeying that person’s simple commands (unless they are immediately self-destructive). 
+Discard when you destroy or help to destroy the being who did this to you.",Continuity,,Shock
+Soul Shook,Commandment from the Grave,Minor,"Lose 1 Health each time you make a Presence test. If your Health is 0, lose 1 Athletics.
+Discard after scoring a Presence success with a margin of 3 or more.",,,Shock
+Commandment from the Grave,Soul Shook,Major,"Effect comes into play when the shade gives you an order: if at the end of an interval you have taken no action to obey the shade, lose 1 Health, 1 Athletics, and 1 Fighting. 
+Discard by fulfilling the order to the shade’s satisfaction.",,,Shock
+Close Call,Edgy,Minor,Discard when you go for an entire interval without having to make a Composure test.,,,Shock
+Edgy,Close Call,Both,"At the end of any interval, you may choose to roll a die and pay 1 Composure. Even: discard.",,,Shock
+Susceptible,Ideological Capture,Minor,"Lose 1 Composure when exposed to images or ideas of the ideological tendency promoted by the original propaganda message. Loss limited to 1 point per scene.
+After taking a risky action that furthers the propagandist’s objectives, you may discard on a Difficulty 4 Composure success.",,,Shock
+Ideological Capture,Susceptible,Major,"When confronted by an opportunity to further the propagandist’s objectives, make a Difficulty 4 Composure test. Failure: you must take that action.
+When the action has a negative result for you, your friends, or the investigation, you may spend a Push to roll a die. Even: discard. Odd: trade for “Susceptible.”",,,Shock
+No Safe Place,Awful Association,Minor,"After returning to the place of horror, or entering another place like it, -1 to Focus tests for the next six hours (world time).
+Discard by ending the menace that made the place unsafe.",,,Shock
+Awful Association,No Safe Place,Major,"When you return to the place of horror, or enter another place like it, lose 1 Push and 3 Composure.
+Discard by ending the menace that made the place unsafe.
+Gains Continuity tag if still in hand at end of scenario.",,,Shock
+Gun Shy,Under Fire,Minor,"-1 to Fighting tests.
+Discard when you take part in the defeat of a foe armed with military weapons.",,,Shock
+Under Fire,Gun Shy,Major,"-2 to Fighting tests.
+Discard when you take part in the defeat of a foe armed with military weapons.",,,Shock
+Harried,Overwhelmed,Minor,"Before any Composure test, roll a die. Odd: lose 1 Composure.
+Discard on a failed Composure test.",,,Shock
+Overwhelmed,Harried,Major,"Before any test, roll a die. Odd: lose 1 point from the ability being tested.
+Discard when you use an Investigative ability to gain a core clue.",,,Shock
+Homebound,Fortified,Minor,#NAME?,,,Shock
+Fortified,Homebound,Major,-X to tests. X = the number of scenes that have passed since you spent 4 or more hours (world time) adding a lock or booby trap to your home.,,,Shock
+Nothing is Real,Melted Perceptions,Major,"Margin on failed Composure tests increases by 1.
+Discard as recipient of Difficulty 5 First Aid success.",,,Shock
+“Does This Look Weird?”,Body Horror,Minor,"Now and at the beginning of each session, roll a die. 1-2: lose 1 Composure. 3-4: lose 1 Health.
+Discard by finding the antidote, treatment, or counterspell to your condition.",,,Shock
+Body Horror,“Does This Look Weird?”,Major,"Now and at each interval, roll a die. 1-2: lose 2 Composure. 3-4: lose 2 Health.
+Discard by finding the antidote, treatment, or counterspell to your condition.
+If your Health is at 0 at end of scenario, this card gains the Continuity tag.",,,Shock
+Overconfident,Hideous Laughter,Minor,"Margin of your next Fighting failure increases by 2.
+Then discard.",,,Shock
+Hideous Laughter,Overconfident,Major,"At the start of any fight, roll a die. Odd: -1 to Fighting. Even: -1 to everyone’s Fighting.
+At end of fight, roll a die. Even: discard.",,,Shock
+Unearthly Sounds,Auditory Hallucination,Minor,"-1 to Focus tests.
+When you correctly identify the origin of the sounds, roll a die. Even: discard.",,,Shock
+Auditory Hallucination,Unearthly Sounds,Major,"-1 to Focus tests.
+When you correctly identify the origin of the sounds, spend a Push and roll a die. Even: discard.",,,Shock
+Proprioception Dysmorphia,Identity Decentralization,Minor,"Margins of your failed tests increase by 1. 
+Discard the next time you take an Injury card.",,,Shock
+Identity Decentralization,Proprioception Dysmorphia,Major,"Margins of your failed tests increase by 2.
+When you take an Injury card, roll a die. Even: discard.",,,Shock
+Cut Off,On Your Own,Minor,"Once per session, the GM may require you to undertake a foolhardy action in search of a wireless signal.
+Discard when your access to a reliable, ongoing signal resumes.",,,Shock
+On Your Own,Cut Off,Major,"Composure drops by 1 at the end of each interval.
+Discard when your access to a reliable, ongoing signal resumes.",,,Shock
+Sleepless Nights,You Went Viral,Minor,"Focus tests take a penalty equal to the number of mornings that have passed since you got this card (world time).
+After shutting down the story bringing you notoriety, roll a die each world-time morning. Even: discard.",,,Shock
+You Went Viral,Sleepless Nights,Major,"Lose 2 Composure and 2 Health each morning (world time).
+After shutting down the story bringing you notoriety, roll a die each world-time morning. 5 or 6: discard.",,,Shock
+Lab Coat Unease,Lab Coat Terror,Minor,"When you enter a hospital, doctor’s office, or medical facility and have 1 or more Pushes, lose 1 Push.
+Discard by putting your experimenter permanently out of business.",,,Shock
+Lab Coat Terror,Lab Coat Unease,Major,"When you enter a hospital, doctor’s office, or medical facility, -1 Composure until end of scenario.
+Discard by putting your experimenter permanently out of business.
+Gains Continuity tag if in hand at end of scenario.",,,Shock
+Reintegration Regret,Reintegration Remorse,Minor,"-1 to Focus tests.
+Discard when you stop someone from damaging a GMC’s reintegration.",,,Shock
+Reintegration Remorse,Reintegration Regret,Major,"-1 to Focus and Presence tests.
+Discard when you pay a price to stop someone from damaging a GMC’s reintegration.",,,Shock
+Pack Rat,My Collection Will Never Betray Me,Minor,"All characters take -1 to Preparedness tests.
+Roll a die on any character’s Preparedness failure. Odd: everyone can tell that you tossed out the desired item to make room for a useless souvenir from a previous scene.
+Discard by ridding yourself of an item you established in a previous scene as being important to you and spending 3 Composure.
+If still in hand at end of scenario, trade for “My Collection Will Never Betray Me.”",,,Shock
+My Collection Will Never Betray Me,Pack Rat,Major,"All characters take -1 to Preparedness tests.
+Roll a die on any character’s Preparedness failure. Odd: everyone can tell that you tossed out the desired item to make room for a useless souvenir from a previous scene.
+If your Composure exceeds 2 at end of scenario, trade for “Pack Rat.”",,,Shock
+Psi Probe,In Your Mind,Minor,"Roll a die. 1-2: X=1. 3-4: X=2 5-6: X=3. Lose X Composure points.
+When you figure out the plans of the being that invaded your mind, discard this card and regain X Composure.",,,Shock
+In Your Mind,Psi Probe,Major,"Roll a die: lose Composure points equal to the result.
+When you foil the plans of the being that invaded your mind, discard this card and regain the number of Composure points you lost when you gained this card.",,,Shock
+Stirred Up,Violent Side,Minor," -1 to Focus tests. 
+Discard by drinking or drugging yourself into a stupor.",,,Shock
+Violent Side,Stirred Up,Major,"-1 to Focus tests. 
+Discard by sucker-punching someone who has nothing to do with the investigation.",,,Shock
+Trending Trauma,Omnipresent Horror,Minor,"-1 to Focus tests.
+At end of each interval, roll a die. Odd: lose 1 Composure. Even: discard.
+Discard when you take an Injury card.",,,Shock
+Omnipresent Horror,Trending Trauma,Major,"-1 to Focus tests. 
+You can’t refresh Composure.
+Discard when you take an Injury card.",,,Shock
+This Note’s for Grue,Murder Music,Minor,"After hearing the song again, -1 to Presence tests until end of scenario.
+If that penalty is in effect at end of scenario, and the group solved the mystery, discard.",Continuity,,Shock
+Murder Music,This Note’s for Grue,Major,"After hearing the song again, -1 to tests until end of scenario.
+If that penalty is in effect at end of scenario, and the group solved the mystery, roll a die. Even: discard.",Continuity,,Shock
+This One’s on You,Through the Looking Glass,Minor,"Lose 3 Composure. 
+When you take a risk to advance the investigation, gain 4 Composure and discard.",,,Shock
+Through the Looking Glass,This One’s on You,Major,"-1 to Focus tests. 
+When you take a risk to advance your investigation, roll a die. Even: discard.",,,Shock
+Every Breath You Take,Every Move You Make,Minor,"You may spend Composure points on Sense Trouble tests—and must spend a minimum of 1 per test, so long as your Composure exceeds 0. 
+Discard when you know you’re no longer being watched.",,,Shock
+Every Move You Make,Every Breath You Take,Major,"Lose 3 Composure every time anyone tests Sense Trouble.
+Discard when you know you’re no longer being watched.",,,Shock
+Primal Outrage,Primal Bloodlust,Minor,"You may spend Composure or Health points on Fighting tests against Rampagers. If you choose to do this, “Primal Outrage” becomes a Continuity card.",,,Shock
+Primal Bloodlust,Primal Outrage,Major,"-2 Fighting against Rampagers and Carcosans when the objective ≠ Kill. 
+Discard when you take part in a winning fight against a Rampager or Carcosan when the objective = Kill.",,,Shock
+Eerie Object,Cursed Item,Minor,"Lose 2 Health, Composure, and Athletics each time the distance between you and the object exceeds 2 m.
+Horror mode: If the item is destroyed, you die.
+Occult Adventure mode: If the item is destroyed, take Injury card “Cardiac Arrest.”",,,Shock
+Cursed Item,Eerie Object,Major,"All other PCs take -1 to tests. You gain +1 to tests. 
+Horror mode: If the item is destroyed, you die.
+Occult Adventure mode: If the item is destroyed, take Injury card “Cardiac Arrest.”
+If another PC tries to take the item from you, roll a die. Odd: you attack them, giving them the Paris card “Shot” or “Slashed Throat” (your choice). Even: discard. The other PC gains the item and makes a Difficulty 4 Composure test, gaining this card on a failure and “Eerie Object” on a success.",,,Shock
+Hyper-Vigilant,Edgy,Major,"+1 to Sense Trouble tests. 
+Lose 1 Health and 1 Composure on any Sense Trouble success.
+Discard when something bad happens to you, exactly like you said it would.",,,Shock
+Spotlight Hog,Messiah Complex,Minor,"-1 to Focus tests.
+At the end of any interval, take an action calling attention to yourself. Roll a die. Even: discard.",,,Shock
+Messiah Complex,Spotlight Hog,Major,"Once per session, you may gain +3 to any non-Composure test. The player to your left loses 3 points from their highest General pool. If pools are tied for first, you pick which one.
+If the result of your test is even, discard this card.",,,Shock
+Raw Nerve,Under a Microscope,Minor,"-2 to Composure tests that won’t give you a Shock card if you fail.
+Discard when you fail such a test.",,,Shock
+Under a Microscope,Raw Nerve,Major,Roll a die when discarding any other Shock card. Odd: that Shock returns to your hand.,,,Shock
+Invaded,Defiled,Minor,"-1 to tests.
+If the intruder is inhuman, discard by finding and killing it.
+If the intruder is human, discard by contributing to the intruder’s arrest and imprisonment.",,,Shock
+Defiled,Invaded,Major,"-1 to tests.
+If the intruder is inhuman, discard by finding and killing it.
+If the intruder is human, roll a die when you contribute to the intruder’s arrest and imprisonment. Even: discard.
+If still in hand at end of scenario, gains Continuity tag.",,,Shock
+Scrub the System,They’re in Your Auxiliary Brain,Minor,"-2 to Presence tests and -1 to Focus tests. 
+If your phone is affected, discard this card eight world hours after you restore to factory settings. If it’s your computer, discard after you have everything properly installed again after a ground-up reinstall.",,,Shock
+They’re in Your Auxiliary Brain,Scrub the System,Major,"-2 to Presence tests and -1 to Focus tests. 
+Discard by permanently destroying the affected device and all devices you own that it backed up to, while alone and in a remote location.",,,Shock
+Coulda Been Hurt,Coulda Been Killed,Minor,"Roll a die when discarding any other Shock card. On a result of 1 0r 2, that Shock returns to your hand. 
+Discard this card by tracking down and confronting the guilty party in meat space.",,,Shock
+Coulda Been Killed,Coulda Been Hurt,Major,"Pay 3 Composure when discarding any other Shock card. If you can’t pay, you can’t discard.
+Discard this card by tracking down and confronting the guilty party in meat space.",,,Shock
+Nagging Guilt,Gnawing Guilt,Minor,-1 Fighting tests vs. Rampagers and Carcosans.,,,Shock
+Gnawing Guilt,Nagging Guilt,Major,-1 Fighting tests vs. Rampagers and Carcosans.,Continuity,,Shock
+Déjà Who?,Me Again,Minor,"Roll a die. Even: gain Composure equal to the result. Odd: lose a total of 5 points from General pools, as chosen by the GM, and discard this card at next interval.
+After any 1-hour increment (game time), you may choose to repeat the above effect.
+At end of scenario, you may declare this a Continuity card.",,,Shock
+Me Again,Déjà Who?,Major,"-1 to Presence tests if the current scenario has yet to reveal information regarding your strange cosmic significance. +1 to Presence tests if it has.
+Any time you learn a new fact about your cosmic significance you may choose to discard this card.",,,Shock
+Blowback,Unforgivable,Minor,Roll a die. Odd: lose 1 point from each ability pool. Even: lose 1 Push.,,,Shock
+Unforgivable,Blowback,Major,"Margins of your failed tests increase by 1.
+When you are drunk or intoxicated, discard this card. When you sober up, you regain this card.",Continuity,,Shock
+Premonition,Weird Insight,Minor,"Lose 3 Composure.
+When you gain your next Shock card, refresh 3 Composure and discard this card.",,,Shock
+Weird Insight,Premonition,Major,"Spend 3 Composure to allow another player to discard a non-Continuity Shock card.
+Each time you do this, roll a die. Odd: this becomes a Continuity card.",,,Shock
+Blood Debt,Fratricide,Minor,"-1 to Focus tests. 
+Discard by convincingly discharging your debt to the slain.",Continuity,,Shock
+Fratricide,Blood Debt,Major,"Counts as two Shock cards. After you convincingly discharge your debt to the slain, counts as a single Shock card.",Continuity,,Shock
+I Should Have Prevented This,Spiral into Violence,Minor,"At the end of scenario in which you acquired this card, make a Difficulty 6 Composure test. Success: discard. Failure: this becomes a Continuity card.",,,Shock
+Spiral into Violence,I Should Have Prevented This,Major,-1 to Focus tests. ,Continuity,,Shock
+"Well, That Happened",Lateral Suicide,Minor,"After a Fighting success, roll a die. Odd: treat as a Fighting failure with a margin of 3, and discard this card.",,,Shock
+Lateral Suicide,"Well, That Happened",Major,"You may spend 6 Composure to gain +1 to all tests until end of session.
+When you gain new information regarding your strange cosmic significance, roll a die. Odd: discard this card.
+At end of scenario, you may declare this a Continuity card.",,,Shock
+Intoxicating Gaze,"Throttled
+[Injury]",Major,"Each time you attempt to act against the interest of the foe who hypnotized you, you must succeed at a Difficulty 6 Composure test to proceed. 
+Discard when you are sure this foe has been destroyed.",,,Shock
+Red Jack’s Whisper,Red Jack,Minor,"-1 to Focus. -2 to Fighting for objectives other than Kill.
+Discard when the blade possesses a new host.",,,Shock
+Red Jack,Red Jack’s Whisper,Major,"If you have less than 3 Composure at end of scenario, your character leaves play, becoming the latest vampiric incarnation of Jack the Ripper. This also happens if your character leaves play in any other way. This GMC version of your character regains Jack’s knife by means that may or may not be apparent to the group right away.",Continuity,,Shock
+Occult Dabbler,Warped Ethos,Minor,"Users of efficacious magic can identify you as one of their own.
+Counts as a Shock card only if you used magic during the current scenario.
+At end of scenario in which you use no magic, roll a die. Even: discard.",Continuity,,Shock
+Warped Ethos,Occult Dabbler,Major,"When you meet a more powerful user of efficacious magic, roll a die. Odd: you reveal a secret to this individual, or lend some other assistance.
+If that assistance brings harm to the group, roll a die. Even: discard. Odd: trade for “Occult Dabbler.”",,,Shock
+Nullify,Ocean Game,Minor,"You can’t attack the entity who gave you this Shock.
+Counts as a Shock card only if you have met or communicated with the entity during the current scenario.
+Discard when you’re sure the entity has been destroyed.",Continuity,,Shock
+Ocean Game,Nullify,Major,"-2 to Focus. You believe yourself to have slipped into an inescapable nightmare reality, and behave accordingly.
+On a Difficulty 6 Composure test, which you can take whenever you gain a core clue, trade for “Nullify.”",,,Shock
+Place of Sorrow,Residual Grief,Minor,"-x to Fighting tests vs. Carcosans, Invasives and Rampagers.
+X starts at 1 and increases by 1 at the end of each scene in which the terrible events tied to this place are mentioned. Discard when you fight the foe that gave you this card and meet or beat its Difficulty during a combat.",,,Shock
+Residual Grief,Place of Sorrow,Major,"-1 to Fighting tests. Discard when you fight the foe that gave you this Shock and meet or beat its Difficulty during a combat. At the beginning of an episode, spend a Push and roll a die. Even: discard.",Continuity,,Shock
