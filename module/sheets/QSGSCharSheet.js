@@ -98,6 +98,10 @@ export default class QSGSCharSheet extends ActorSheet {
         data.focus = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"}).sort((a, b) => a.name > b.name && 1 || -1);
         data.physical = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"}).sort((a, b) => a.name > b.name && 1 || -1);
 
+        data.generalPoints = 0;
+        data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.rating > 0 }).forEach(item => {
+            data.generalPoints += parseInt(item.data.rating);
+        });
         data.injuries = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "injury" || item.data.type == "combo")});
         data.shocks = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "shock" || item.data.type == "combo")});
 
