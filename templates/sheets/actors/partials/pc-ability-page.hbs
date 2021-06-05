@@ -83,9 +83,17 @@
     </div>
 
     <div class="tab" data-group="primary" data-tab="other">
-        <h1>{{localize "qsgs.char-sheet.background"}}</h1>
-        <textarea></textarea>
-        <h1>{{localize "qsgs.char-sheet.equipment"}}</h1>
-        <textarea></textarea>
+        <div class="sheet-content" style="height: 150px">
+            <h1>{{localize "qsgs.char-sheet.occupationalBenefits"}}</h1>
+            {{editor content=data.occupationalBenefits target="data.occupationalBenefits" button=true owner=owner editable=editable}}
+        </div>
+        <div class="sheet-content" style="height: 150px">
+            <h1>{{localize "qsgs.char-sheet.background"}}</h1>
+            {{editor content=data.background target="data.background" button=true owner=owner editable=editable}}
+        </div>
+        <div class="sheet-content" style="height: 150px">
+            <h1>{{localize "qsgs.char-sheet.equipment"}}</h1>
+            {{editor content=data.equipment target="data.equipment" button=true owner=owner editable=editable}}
+        </div>
     </div>
 </section>

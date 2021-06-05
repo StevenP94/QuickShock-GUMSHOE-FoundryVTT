@@ -1,24 +1,25 @@
-<section class="bio">
+<section class="bio" >
+    <div style="padding-right: 30px; display: flex; align-content: stretch; flex-direction: column;">
+        <div><img style="width:auto !important; height: 150px !important; margin: 0 auto 1em auto;" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"></div>
+    </div>
     <div style="flex-direction: column;">
         <div>
-            {{localize "qsgs.char-sheet.name"}}
-            <input name="actor.name" type="text" value="{{actor.name}}"></input>
+            <b>{{localize "qsgs.char-sheet.name"}}</b>
+            <input name="name" type="text" value="{{actor.name}}"/>
         </div>
         <div>
-            {{localize "qsgs.char-sheet.drive"}}
+            <b>{{localize "qsgs.char-sheet.drive"}}</b>
             <input name="data.drive" type="text" value="{{data.drive}}"></input>
         </div>
         <div>
-            {{localize "qsgs.char-sheet.occupation"}}
+            <b>{{localize "qsgs.char-sheet.occupation"}}</b>
             <input name="data.occupation" type="text" value="{{data.occupation}}"></input>
         </div>
-        <div>
-            {{localize "qsgs.char-sheet.occupationalBenefits"}}
-            <textarea name="data.occupationalBenefits" type="text" value="{{data.occupationalBenefits}}"></textarea>
-        </div>                         
+        <div> <b>{{localize "qsgs.char-sheet.pushes"}}</b> <input type="checkbox"> <input type="checkbox"></div>                             
     </div>
-    <div style="padding-left: 30px; display: flex; align-content: stretch; flex-direction: column;">
-        <div><img style="width:auto !important; height: 150px !important; margin: 0 auto 1em auto;" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"></div>
-        <div>{{localize "qsgs.char-sheet.pushes"}} <input type="checkbox"> <input type="checkbox"></div>
+    <div style="padding-left: 30px; max-width: 500px">
+        <b>{{localize "qsgs.char-sheet.occupationalBenefits"}}</b>
+        {{{data.occupationalBenefits}}}
     </div>
+
 </section>

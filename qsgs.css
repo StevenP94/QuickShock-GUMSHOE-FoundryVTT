@@ -27,6 +27,14 @@
 .qsgs.sheet.pc .sheet-content .editor {
   height: 100%;
 }
+.qsgs.sheet.pc .editor-size {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.qsgs.sheet.pc .editor-size .editor {
+  height: 100%;
+}
 .qsgs.sheet.pc .bio {
   display: flex;
   align-content: stretch;
@@ -49,4 +57,10 @@
   align-content: stretch;
   flex-direction: row;
   justify-content: center;
+}
+.editor-section {
+  height: 100px;
+}
+.editor-section .editor {
+  height: 100%;
 }

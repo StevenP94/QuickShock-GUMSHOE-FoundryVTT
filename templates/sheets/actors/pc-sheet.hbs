@@ -18,9 +18,9 @@
             {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-page.hbs"}}
 
             {{!-- Pillars of Sanity --}}
-            <section>
+            <section class="sheet-content" style="height: 150px">
                 <h1>{{localize "qsgs.char-sheet.pillars"}}</h1>
-                <textarea></textarea>
+                {{editor content=data.pillars target="data.pillars" button=true owner=owner editable=editable}}
             </section>
         </div>
         <div style="margin-left: 10px;">
