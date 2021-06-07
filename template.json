@@ -2,7 +2,8 @@
     "Actor":{
         "types": [
             "PC",
-            "Foe"
+            "Foe",
+            "Party"
         ],
         "PC": {
             "name": "",

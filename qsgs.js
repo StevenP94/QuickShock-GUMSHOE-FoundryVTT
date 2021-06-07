@@ -2,6 +2,7 @@ import {qsgs} from "./module/config.js";
 import QSGSItem from "./module/QSGSItem.js";
 import QSGSItemSheet from "./module/sheets/QSGSItemSheet.js";
 import QSGSCharSheet from "./module/sheets/QSGSCharSheet.js";
+import QSGSPartySheet from "./module/sheets/QSGSPartySheet.js";
 
 async function loadHandleBarTemplates()
 {
@@ -29,6 +30,7 @@ Hooks.once("init", function() {
 
     Actors.unregisterSheet("core", ItemSheet)
     Actors.registerSheet("quickshock-gumshoe", QSGSCharSheet, { makeDefault: true});
+    Actors.registerSheet("quickshock-gumshoe", QSGSPartySheet);
 
     Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
       return (arg1 == arg2) ? options.fn(this) : options.inverse(this);

@@ -83,7 +83,7 @@ export default class QSGSCharSheet extends ActorSheet {
     ]
 
     get template() {
-        return `systems/qsgs/templates/sheets/actors/${this.actor.data.type}-sheet.hbs`;
+        return `systems/qsgs/templates/sheets/actors/pc-sheet.hbs`;
     }
 
     getData() {
