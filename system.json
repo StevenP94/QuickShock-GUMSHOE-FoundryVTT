@@ -45,5 +45,7 @@
     "gridDistance": 5,
     "gridUnits": "ft",
     "primaryTokenAttribute": "health",
-    "initiative": "@combatSpend"
+    "initiative": "@combatSpend",
+    "manifest": "https://raw.githubusercontent.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json",
+    "download": "https://codeload.github.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/zip/main"
 }
