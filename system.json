@@ -47,5 +47,5 @@
     "primaryTokenAttribute": "health",
     "initiative": "@combatSpend",
     "manifest": "https://raw.githubusercontent.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json",
-    "download": "https://codeload.github.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/zip/main"
+    "download": "https://github.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/archive/main.zip"
 }
