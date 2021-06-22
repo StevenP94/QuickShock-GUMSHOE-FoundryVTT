@@ -11,3 +11,7 @@ In Foundry VTT, on the Configuration and Setup's **Game Systems** sheet, click t
 Paste the following **Manifest URL** to install the game system and click **Install**:
 
 >https://raw.githubusercontent.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json
+
+# Legal
+
+This work is based on the GUMSHOE SRD (found athttps://www.pelgranepress.com/index.php/the-gumshoe-system-reference-document/), a product of Pelgrane Press, developed, written, and edited by Robin D. Laws with additional material by Kenneth Hite, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
