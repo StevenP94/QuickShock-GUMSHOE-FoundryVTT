@@ -99,6 +99,12 @@ export default class QSGSCharSheet extends ActorSheet {
         sheetData.presence = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "presence"}).sort((a, b) => a.name > b.name && 1 || -1);
         sheetData.focus = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"}).sort((a, b) => a.name > b.name && 1 || -1);
         sheetData.physical = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"}).sort((a, b) => a.name > b.name && 1 || -1);
+        
+        if(sheetData.data.hideZeroRated == true) {
+            sheetData.presence = sheetData.presence.filter(function(item) {return item.data.rating > 0});
+            sheetData.focus = sheetData.focus.filter(function(item) {return item.data.rating > 0});
+            sheetData.physical = sheetData.physical.filter(function(item) {return item.data.rating > 0});
+        }
 
         sheetData.generalPoints = 0;
         sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.rating > 0 }).forEach(item => {

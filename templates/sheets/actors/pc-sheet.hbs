@@ -14,14 +14,16 @@
             {{!-- PC Header Information --}}
             {{> "systems/qsgs/templates/sheets/actors/partials/pc-info.hbs"}}
             
-            {{!-- PC Ability Page --}}
-            {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-page.hbs"}}
+            <div style="width: 1000px;">
+                {{!-- PC Ability Page --}}
+                {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-page.hbs"}}
 
-            {{!-- Pillars of Sanity --}}
-            <section class="sheet-content" style="height: 150px">
-                <h1>{{localize "qsgs.char-sheet.pillars"}}</h1>
-                {{editor content=data.pillars target="data.pillars" button=true owner=owner editable=editable}}
-            </section>
+                {{!-- Pillars of Sanity --}}
+                <section class="sheet-content" style="height: 150px">
+                    <h1>{{localize "qsgs.char-sheet.pillars"}}</h1>
+                    {{editor content=data.pillars target="data.pillars" button=true owner=owner editable=editable}}
+                </section>
+            </div>
         </div>
         <div style="margin-left: 10px;">
             <h1>{{localize "qsgs.char-sheet.shocks"}} </h1>

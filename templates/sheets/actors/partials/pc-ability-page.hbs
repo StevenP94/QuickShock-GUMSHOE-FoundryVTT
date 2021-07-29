@@ -1,12 +1,11 @@
 {{!-- <button class="tablink" onclick="openPage('Abilities', this)">Abilities</button>
 <button class="tablink" onclick="openPage('Other', this)">Other</button> --}}
-
 <nav class="sheet-navigation tabs" data-group="primary">
     <a class="item" data-tab="abilities">{{localize "qsgs.char-sheet.abilities"}}</a>
     <a class="item" data-tab="other">{{localize "qsgs.char-sheet.other"}}</a>
 </nav>
 
-<section class="content" style="min-width: 1000px">
+<section class="content">
     <div class="tab" data-group="primary" data-tab="abilities">
         <section class="ability-categories">
             <div style="padding: 30px;">
@@ -45,10 +44,12 @@
                 </div>
             </div>
             <div style="padding: 30px;">
-                <h1 class="category-refresh" data-category="general">
+                <div>
+                    <h1 class="category-refresh" data-category="general">
                     {{localize "qsgs.char-sheet.genTitle"}}
                     {{ generalPoints }}
-                </h1>
+                    </h1>
+                </div>
                 <div class="ability-list">
                     <div style="padding: 10px;">
                         <h2 class="category-refresh" data-category="presence">
@@ -77,6 +78,10 @@
                             {{> "systems/qsgs/templates/sheets/actors/partials/pc-ability-text.hbs"}}
                         {{/each}}
                     </div>
+                </div>
+                <div>
+                    Hide Zero Rated Abilities
+                    <input name="data.hideZeroRated" type="checkbox" {{ checked data.hideZeroRated }}/>
                 </div>
             </div>
         </section>

@@ -14,7 +14,8 @@
             "pillars": "",
             "equipment": "",
             "push1": false,
-            "push2": false
+            "push2": false,
+            "hideZeroRated": false
         }
     },
     "Item":{
