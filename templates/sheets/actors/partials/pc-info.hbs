@@ -15,7 +15,7 @@
             <b>{{localize "qsgs.char-sheet.occupation"}}</b>
             <input name="data.occupation" type="text" value="{{data.occupation}}"></input>
         </div>
-        <div> <b>{{localize "qsgs.char-sheet.pushes"}}</b> <input type="checkbox"> <input type="checkbox"></div>                             
+        <div> <b>{{localize "qsgs.char-sheet.pushes"}}</b> <input name="data.push1" type="checkbox" {{ checked data.push1 }}/> <input name="data.push2" type="checkbox" {{ checked data.push2 }}/></div>                             
     </div>
     <div style="padding-left: 30px; max-width: 500px">
         <b>{{localize "qsgs.char-sheet.occupationalBenefits"}}</b>

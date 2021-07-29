@@ -17,7 +17,7 @@ export default class QSGSCharSheet extends ActorSheet {
             name: "Edit",
             icon: '<i class="fas fa-edit"></i>',
             callback: element => {
-                const item = this.actor.getOwnedItem(element.data("item-id"));
+                const item = this.actor.items.get(element.data("item-id"));
                 item.sheet.render(true);
             }
         },
@@ -25,18 +25,18 @@ export default class QSGSCharSheet extends ActorSheet {
             name: "Delete",
             icon: '<i class="fas fa-trash"></i>',
             callback: element => {
-                this.actor.deleteOwnedItem(element.data("item-id"))
+                this.actor.items.get(element.data("item-id")).delete()
             }
         },
         {
             name: "Refresh",
             icon: '<i class="fas fa-redo"></i>',
             condition: element => {
-                const item = this.actor.getOwnedItem(element.data("item-id"));
+                const item = this.actor.items.get(element.data("item-id"));
                 return item.type != "Card" && item.data.data.pool < item.data.data.rating;
             },
             callback: element => {
-                const item = this.actor.getOwnedItem(element.data("item-id"));
+                const item = this.actor.items.get(element.data("item-id"));
                 console.log(item);
                 let updateObject = { data: {pool: item.data.data.rating}};
                 item.update(updateObject);
@@ -46,11 +46,11 @@ export default class QSGSCharSheet extends ActorSheet {
             name: "Whew",
             icon: '<i class="fas fa-wind"></i>',
             condition: element => {
-                const item = this.actor.getOwnedItem(element.data("item-id"));
+                const item = this.actor.items.get(element.data("item-id"));
                 return item.type != "Card" && item.data.data.pool < item.data.data.rating;
             },
             callback: element => {
-                const item = this.actor.getOwnedItem(element.data("item-id"));
+                const item = this.actor.items.get(element.data("item-id"));
                 console.log(item);
                 let newPool = Math.min(item.data.data.pool + 2, item.data.data.rating);
 
@@ -87,25 +87,27 @@ export default class QSGSCharSheet extends ActorSheet {
     }
 
     getData() {
-        const data = super.getData();
-        data.config = CONFIG.qsgs;
+        let sheetData = super.getData();
+        sheetData.data = sheetData.data.data;
+        
+        sheetData.config = CONFIG.qsgs;
 
-        data.academic = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "academic"}).sort((a, b) => a.name > b.name && 1 || -1);
-        data.technical = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "technical"}).sort((a, b) => a.name > b.name && 1 || -1);
-        data.interpersonal = data.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "interpersonal"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.academic = sheetData.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "academic"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.technical = sheetData.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "technical"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.interpersonal = sheetData.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "interpersonal"}).sort((a, b) => a.name > b.name && 1 || -1);
 
-        data.presence = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "presence"}).sort((a, b) => a.name > b.name && 1 || -1);
-        data.focus = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"}).sort((a, b) => a.name > b.name && 1 || -1);
-        data.physical = data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.presence = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "presence"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.focus = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "focus"}).sort((a, b) => a.name > b.name && 1 || -1);
+        sheetData.physical = sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.type == "physical"}).sort((a, b) => a.name > b.name && 1 || -1);
 
-        data.generalPoints = 0;
-        data.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.rating > 0 }).forEach(item => {
-            data.generalPoints += parseInt(item.data.rating);
+        sheetData.generalPoints = 0;
+        sheetData.items.filter(function(item) {return item.type == "GeneralAbility" && item.data.rating > 0 }).forEach(item => {
+            sheetData.generalPoints += parseInt(item.data.rating);
         });
-        data.injuries = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "injury" || item.data.type == "combo")});
-        data.shocks = data.items.filter(function(item) {return item.type == "Card" && (item.data.type == "shock" || item.data.type == "combo")});
+        sheetData.injuries = sheetData.items.filter(function(item) {return item.type == "Card" && (item.data.type == "injury" || item.data.type == "combo")});
+        sheetData.shocks = sheetData.items.filter(function(item) {return item.type == "Card" && (item.data.type == "shock" || item.data.type == "combo")});
 
-        return data
+        return sheetData
     }
 
 
@@ -130,14 +132,14 @@ export default class QSGSCharSheet extends ActorSheet {
     _onItemRoll(event) {
         const itemID = event.currentTarget.closest(".item").dataset.itemId;
         console.log(itemID);
-        const item = this.actor.getOwnedItem(itemID);
+        const item = this.actor.items.get(itemID);
 
         item.roll();
     }
 
     async _onSpend(event) {
         const itemID = event.currentTarget.closest(".item").dataset.itemId;
-        const item = this.actor.getOwnedItem(itemID);
+        const item = this.actor.items.get(itemID);
         const abilityPool = item.data.data.pool;
 
         let messageData = {
@@ -152,11 +154,10 @@ export default class QSGSCharSheet extends ActorSheet {
             new Roll("1").roll().toMessage(messageData);
         }
         else if(item.type == "GeneralAbility") {
-            if(item.data.data.rating == 0 || item.data.data.rating == null)
-                new Roll("1d6 - 2").roll().toMessage(messageData);
-            else if(abilityPool == 0){
-                new Roll("1d6").toMessage(messageData);
-            }
+            if(item.data.data.rating == 0 || item.data.data.rating == null) {
+                let r = new Roll("1d6");
+                r.evaluate({async: false}).toMessage(messageData);
+            }    
             else
             {
                 let spendOptions = await Dice.GetSpendOptions();

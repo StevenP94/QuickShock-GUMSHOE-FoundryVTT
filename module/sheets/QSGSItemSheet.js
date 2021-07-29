@@ -12,13 +12,15 @@ export default class QSGSItemSheet extends ItemSheet {
     }
 
     getData() {
-        const data = super.getData();
+        let sheetData = super.getData();
+        sheetData.data = sheetData.data.data;
 
         if(this.item.data.type == "Card"){
             console.log(data);
         }
-        data.config = CONFIG.qsgs;
+        sheetData.config = CONFIG.qsgs;
 
-        return data;
+        return sheetData;
     }
+
 }

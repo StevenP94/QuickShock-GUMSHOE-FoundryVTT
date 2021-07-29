@@ -12,7 +12,9 @@
             "occupationalBenefits": "",
             "background": "",
             "pillars": "",
-            "equipment": ""
+            "equipment": "",
+            "push1": false,
+            "push2": false
         }
     },
     "Item":{
