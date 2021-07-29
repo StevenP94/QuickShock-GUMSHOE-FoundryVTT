@@ -1,0 +1,24 @@
+{"_id":"6FYx2OEBM7mzVStm","name":"Assess Honesty","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"6UzxUMzjjREv1vq5","name":"Science","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"7BcjXcvxnXkLqC3A","name":"Leadership","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"BamvFtcEy4eX7rrI","name":"Military Science","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"C5Ciqfk2FtDEUCWU","name":"Interrogation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"CWdwfgny6IEWbBRw","name":"Political Science","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"DGgH40edW7V25hpH","name":"Photography","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"GP9yUv6pW9xD4VDM","name":"Military Logistics","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"HGGskdvliMU1NmNl","name":"Farming","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"I2eHjxQ3tC3ZyhXb","name":"Occultism","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"IH3SxCGFLs2CDPgh","name":"Chemistry","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"LAwO7THXUFcMygqc","name":"Blueblood","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"MEmBNp9eJ2VRp6EM","name":"Intuition","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"OqkUwhAEXAZuXkZe","name":"Negotiation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"TN8ZO7tez49OXcQv","name":"Intimidation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"ZgkzStl4ag5OvCUU","name":"Lowlife","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"ceLd52kGewFSyBhq","name":"Reassurance","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"hDwTj6apkGqHC6dQ","name":"Terrain","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"qmnjTGGJ45S0t5u4","name":"Medicine","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"tqFTZyUOLHUScKJM","name":"Accounting","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"vyGrA8b3XxLK1qbJ","name":"Hunting","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"y3hSldiLvjBfDHFZ","name":"Salt of the Earth","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"zJnesgKLHgIyUZGn","name":"Inspiration","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"zeyMIXvCLxyh9DPG","name":"Law","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}

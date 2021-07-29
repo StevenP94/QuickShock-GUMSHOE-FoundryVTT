@@ -1,0 +1,10 @@
+{"_id":"0N3Fb6BIc0OZy5HT","name":"Driving","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"9qIqdH4S3rx1RTGj","name":"Fighting","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"Gz9O6Ik7WWiJIzU7","name":"Sneaking","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"KmYlZo1Hvc0TB2na","name":"Health","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"MY14502IxbnlvpsL","name":"Athletics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"ehjYP0N8o72EHzEs","name":"Composure","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"k3zGPh8kghTUd4Vl","name":"Sense Trouble","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"mfiBDeUedXjav37R","name":"First Aid","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"qN4emCyX2wKU4LsK","name":"Preparedness","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"sQBuPVLWzI79VdQb","name":"Mechanics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}

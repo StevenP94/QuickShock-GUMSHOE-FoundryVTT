@@ -1,23 +1,24 @@
-{"_id":"1LH5f4ZZgFHeToz1","name":"Sense Trouble","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"Cfb79hJIDM9STlNi","name":"Athletics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"DcGt6UUM2ZwGwV2L","name":"Explosives","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
-{"_id":"ElWpg4mMHH2vhBYV","name":"Stability","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"IMiEQ6ylG0RgVoj7","name":"Weapons","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
-{"_id":"IRvTvyA2Bvk7CM6b","name":"First Aid","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
-{"_id":"JWeiTdb0McJWoici","name":"Scuffling","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"MKCKVYlOhjwJGExy","name":"Piloting","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"MSZlw8yHPudPXRRY","name":"Driving","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"QDLhz68oV3bvocPw","name":"Disguise","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":"y"}}
-{"_id":"RrRvLEMlOajPeW3S","name":"Firearms","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"TCyoeQoK5COBmlU7","name":"Riding","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"TY1KdsRQSPJM1bKj","name":"Filch","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
-{"_id":"WQARKyU19UvwrTnB","name":"Sanity","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"Z97r5BYLqAOdIhje","name":"Fleeing","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"ZPU79bLheziJB3nU","name":"Preparedness","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"e5QAtMPK74pmT6nB","name":"Mechanical Repair","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
-{"_id":"eGjCTFiCTfp4KaPU","name":"Conceal","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
-{"_id":"ipjlU7RB9MAp3GuU","name":"Psychoanalysis","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"jJrkGHgnRrJZCN7a","name":"Hypnosis","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
-{"_id":"lvdXedxDJmzOFa8E","name":"Health","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
-{"_id":"oCc7nSzGL0LaDcb8","name":"Electrical Repair","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
-{"_id":"z5XjYEzgY0XE4QaB","name":"Shadowing","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"0Lz9WYbVM64Utn5C","name":"Shadowing","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"26qbeHpqMU8L2CIe","name":"Health","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"3MsR29YaeNvTnpsB","name":"Explosives","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
+{"_id":"5PI5iMpKNWalhDDD","name":"First Aid","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"8OiZ0E3wUT9CIw9u","name":"Conceal","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
+{"_id":"APpWJs0LwwnU6cXD","name":"Electrical Repair","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
+{"_id":"Ahvwu74TLii620aY","name":"Driving","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"Am2asFGDI3W4twNp","name":"Disguise","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":"y"}}
+{"_id":"BNMC9ySVlvAKzdqf","name":"Psychoanalysis","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"FmehnaVk6B6TBYS6","name":"Preparedness","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"GLBojM1d0p1lUzNB","name":"Riding","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"GNup6QYLxiPQfHmP","name":"Fleeing","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"IXjcRKwhxVWjjXM8","name":"Piloting","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"M0oEECNazB0utg6b","name":"Weapons","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"NUQ99FqzkPEXOmDg","name":"Sense Trouble","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"P9pD1HkVeTpMh26s","name":"Scuffling","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"QPfCATQDLNWY5kVr","name":"Firearms","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"QjUX4z0dfajOSzfs","name":"Stability","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"S6qQt2BReJn92hKb","name":"Stealth","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"YbkjVbDNdoSbZDcF","name":"Athletics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"l4YH4Plefcpdme4E","name":"Mechanical Repair","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":"y"}}
+{"_id":"mXgK5WvxDKW7iOv6","name":"Filch","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"qRiUa4NbcJHmPGvE","name":"Sanity","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"qZNtS0EC4V5UBDYJ","name":"Hypnosis","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}

@@ -1,0 +1,16 @@
+{"_id":"0PK5Mi3aa7nJ18lb","name":"Athletics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"9le0XhaaKmFvVuiG","name":"Mechanics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"Gk95kTMF8RfPsyFg","name":"Traps and Bombs","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"GxcRUsq0jfp3DaGt","name":"Sneaking","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"HC974ycRj5zMoGNQ","name":"Preparedness","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"JUytviukTAbGJMRS","name":"Health","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"K3pDQvjoaMa9dh6K","name":"Battlefield","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"SvMwdfhNyY9zBYce","name":"Driving","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"Tj8rsCt4xa4KOSYb","name":"Scrounging","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"U2id7rjIEhFkDRS4","name":"Morale","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"Vin8fgFv3RDCDeBJ","name":"Artillery","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"VntMtbof0t2IiZPY","name":"Fighting","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"ZGfdRscP1u3NRnH9","name":"First Aid","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"viJiU3ypYaek6hCK","name":"Sense Trouble","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"z34Uv1CXtccJVgEC","name":"Riding","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"zCkkW28HKmMXNMJS","name":"Composure","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}

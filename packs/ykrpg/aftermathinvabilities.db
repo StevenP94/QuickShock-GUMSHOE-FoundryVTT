@@ -1,0 +1,25 @@
+{"_id":"24DoqsT0F4HyRe0Z","name":"Intimidation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"5AGtCYZwf68Gi8Z3","name":"Occultism","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"8RIrac0jFKdcpdk5","name":"Negotiation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"B8p3R4HwwZIEbEra","name":"Cop Talk","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"EmvTBdaqJoSFAqcp","name":"Bureaucracy","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"IKBYwyB6M0b1PWC5","name":"Reassurance","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"Id6q67EjXOuyoQ2y","name":"Bullshit Detector","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"MyQU1P3h0w7iIac5","name":"Architecture","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"NXDaDvfG7CRBV6mP","name":"Art History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"OAJ7Itf6fwgK5f9w","name":"Counterinsurgency","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"T986DWvKHiDuKDuv","name":"Inspiration","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"VeRcZS8HbpolFojL","name":"Intuition","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"VqdGzftpBfqLtTXn","name":"Research","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"cmZESbc76Y0Cyowt","name":"People Person","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"d0aN6ZS6w3KPizss","name":"Forensic Anthropology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"e3WY9ZJSm4uNLIBX","name":"Science","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"eQ3j6If9jiXvZnE4","name":"Psychology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"eyCYclNVidJV41e1","name":"Medicine","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"gvg0wzPAoysUDjM0","name":"Leadership","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"hln0GQXOiNZwWffH","name":"Flattery","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"pGLO9Jgz87rlfI1M","name":"History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"tIGkR9dq02PKm7zN","name":"Trivia","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"w4EAD4xh2ccKsBhg","name":"Streetwise","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"w8R93nO9MHDbkc9X","name":"Photography","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"znUVI2snlbZ2aUtk","name":"Accounting","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}

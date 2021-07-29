@@ -1,0 +1,14 @@
+{"_id":"2zf5WvHprP01TIge","name":"Sense Trouble","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"4kNcY9baMNYKQaLY","name":"First Aid","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"8NwB5XAbgQTnRtrt","name":"Preparedness","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"CQcDTF4dk7UzU3dx","name":"Politics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"DlFxwNeva6lyvjKX","name":"Insurgency","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"Plx9PW57foHMT65f","name":"Network","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"UaTo7s0n5wAX4Bgr","name":"Driving","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"Yof9OtiZFYz7ZFMz","name":"Fighting","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"bo7diS4ifJAgbqeS","name":"Composure","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"feaZpk7HggYEqfgG","name":"Health","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}
+{"_id":"hrxvDhHDtBl0gK7g","name":"Mechanics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"qSOC0XFnTaAYVPQG","name":"Morale","permission":{"default":0},"type":"GeneralAbility","data":{"type":"presence","canBeInvestigative":""}}
+{"_id":"uJGIan7yt6EKGsYw","name":"Sneaking","permission":{"default":0},"type":"GeneralAbility","data":{"type":"focus","canBeInvestigative":""}}
+{"_id":"wuOBiZo6xAvi6KEM","name":"Athletics","permission":{"default":0},"type":"GeneralAbility","data":{"type":"physical","canBeInvestigative":""}}

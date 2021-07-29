@@ -14,6 +14,13 @@
     ],
     "packs": [
         {
+            "name": "qscards",
+            "label": "QuickShock Cards (SRD)",
+            "path": "/packs/qscards_srd.db",
+            "entity": "Item"
+
+        },
+        {
             "name": "tocgenabilities",
             "label": "Trail of Cthulhu General Abilities",
             "path": "/packs/tocgenabilities.db",
@@ -28,12 +35,62 @@
 
         },
         {
-            "name": "qscards",
-            "label": "QuickShock Cards (SRD)",
-            "path": "/packs/qscards_srd.db",
+            "name": "parisgenabilities",
+            "label": "YKRPG Paris General Abilities",
+            "path": "/packs/ykrpg/parisgenabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "parisinvabilities",
+            "label": "YKRPG Paris Investigative Abilities",
+            "path": "/packs/ykrpg/parisinvabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "warsgenabilities",
+            "label": "YKRPG The Wars General Abilities",
+            "path": "/packs/ykrpg/warsgenabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "warsinvabilities",
+            "label": "YKRPG The Wars Investigative Abilities",
+            "path": "/packs/ykrpg/warsinvabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "aftermathgenabilities",
+            "label": "YKRPG Aftermath General Abilities",
+            "path": "/packs/ykrpg/aftermathgenabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "aftermathinvabilities",
+            "label": "YKRPG Aftermath Investigative Abilities",
+            "path": "/packs/ykrpg/aftermathinvabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "normalgenabilities",
+            "label": "YKRPG This Is Normal Now General Abilities",
+            "path": "/packs/ykrpg/normalgenabilities.db",
+            "entity": "Item"
+
+        },
+        {
+            "name": "normalinvabilities",
+            "label": "YKRPG This Is Normal Now Investigative Abilities",
+            "path": "/packs/ykrpg/normalinvabilities.db",
             "entity": "Item"
 
         }
+
     ],
     "languages":[
         {

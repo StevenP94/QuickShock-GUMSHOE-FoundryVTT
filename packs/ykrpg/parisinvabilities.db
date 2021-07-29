@@ -1,0 +1,26 @@
+{"_id":"2NFD1aGpq3KbJLKc","name":"Architecture","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"3Mx6PinBvTytO3lz","name":"Intuition","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"8FiPx9l6tsEMlWg5","name":"Demimonde","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"BXSLRzqEj8DFTEe0","name":"History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"EK95N2gHKWxuHeKh","name":"Fashion","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"G6rX4TFuDJMrssga","name":"Reassurance","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"Ge1hNqaplrZua2Gh","name":"Bonhomie","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"K5HYX3TFU2SAiC2E","name":"Culture","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"KHB8DS7MLOXIsHac","name":"Sculpture","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"NHxnmsX7AyywqIVk","name":"Society","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"OAMQktx4OmYYGuto","name":"Negotiation","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"RIiSrNELMWioFWRc","name":"Natural History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"TPej6G2WZlteutdA","name":"Miscellany","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"VmiIUPtbQbavOVU3","name":"Assess Honesty","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"WnowFGgy2YwCt2k8","name":"Belle-Lettres","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"Yjegj8Ra6Ctd0ZH2","name":"Technology","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"bfVvZOuC3iDEZ1EI","name":"Painting","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"c9GNz4NQFMTmLeEB","name":"Photography","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"technical"}}
+{"_id":"gnhDpJeHpIqPzzRK","name":"Research","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"lkwRO9n411gtu7ZO","name":"Art History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"lsiqS1mPeQNV52qH","name":"Officialdom","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"rSnQTVt6QsTSJXpb","name":"Steel","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"tNuImDIphdS7kDAp","name":"Poetry","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"wV7zmnMCxYsj6GD3","name":"Occultism","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
+{"_id":"ydUXTswC2qdtoXPn","name":"Inspiration","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"interpersonal"}}
+{"_id":"zfImolmwnqmiAbTf","name":"Military History","permission":{"default":0},"type":"InvestigativeAbility","data":{"type":"academic"}}
