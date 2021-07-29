@@ -161,7 +161,7 @@ export default class QSGSCharSheet extends ActorSheet {
             new Roll("1").roll().toMessage(messageData);
         }
         else if(item.type == "GeneralAbility") {
-            if(item.data.data.rating == 0 || item.data.data.rating == null) {
+            if(item.data.data.rating == 0 || item.data.data.rating == null || item.data.data.pool == 0) {
                 let r = new Roll("1d6");
                 r.evaluate({async: false}).toMessage(messageData);
             }    
