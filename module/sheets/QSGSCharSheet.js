@@ -120,7 +120,7 @@ export default class QSGSCharSheet extends ActorSheet {
         }
         
         //Owner-only listeners
-        if (this.actor.owner) {
+        if (this.actor.isOwner) {
             html.find(".item-roll").click(this._onItemRoll.bind(this));
             html.find(".spend").click(this._onSpend.bind(this));
         }
