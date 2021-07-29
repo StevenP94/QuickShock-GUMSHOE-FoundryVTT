@@ -4,7 +4,14 @@ Video Walkthrough [Here](https://www.youtube.com/watch?v=hcl94LStQ8o).
 
 Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://docs.google.com/document/d/1qDgkgjx5paBQ5j9lUQ3dv4D45aXjI7P7XMHbbeI2SnA)).
 
-# Installation
+## Features
+* Character sheet which tracks ratings and pools for all abilities. 
+* Spend points and roll from character sheet.
+* Refresh pools, individually or for all general abilities, by right clicking.
+* Track Injuries and Shocks on the character sheet.
+* Compendia for general and investigative abilities, as well as all of the QuickShock cards from the SRD.
+
+## Installation
 
 In Foundry VTT, on the Configuration and Setup's **Game Systems** sheet, click the **Install System** button at the bottom.
 
@@ -12,6 +19,31 @@ Paste the following **Manifest URL** to install the game system and click **Inst
 
 >https://raw.githubusercontent.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json
 
-# Legal
+## Using Systems
+
+The system is preconfigured for YKRPG - Paris. If you go to "System Settings", under "Game Settings" in the sidebar, there is a dropdown to choose your game.
+
+The general layout of the character sheet will remain the same, however certain headings will be named according to the game you chose.
+
+## Creating PCs
+
+PCs are created from the **Actors** tab. It will autopopulate with the General Abilities for the game you've selected. 
+
+Drag and drop the investigative abilities for your PC from the relevant compendium manually.
+
+## Using Abilities
+
+Click on the ability you want to use. If it is rollable and has points, a dialog box will appear asking how much you would like to spend/roll. If it currently has no points, it will automatically roll 1d6.
+
+Right clicking an ability opens a context menu where you can edit, refresh, whew, or delete the ability.
+
+## Adding Cards to PCs
+
+Cards can be added to PCs by simply dragging and dropping them from the Items directory or a compendium. They can be removed by right clicking on them, and selecting **delete** on the context menu.
+
+## Creating Custom Abilities and Cards
+
+General Abilities, Investigative Abilities, and Cards are all **items**. When you create an item, you can choose the type, and fill out the data accordingly.
+## Credits
 
 This work is based on the GUMSHOE SRD (found athttps://www.pelgranepress.com/index.php/the-gumshoe-system-reference-document/), a product of Pelgrane Press, developed, written, and edited by Robin D. Laws with additional material by Kenneth Hite, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).

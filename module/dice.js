@@ -32,7 +32,7 @@ export async function GetSpendOptions() {
             content: html,
             buttons: {
                 spend: {
-                    label: "Spend",
+                    label: "Simple Spend",
                     callback: html => resolve(_processSpend(html[0].querySelector("form")))
                 },
                 roll: {
