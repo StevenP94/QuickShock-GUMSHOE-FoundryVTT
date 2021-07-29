@@ -2,7 +2,7 @@ Foundry VTT System to run QuickShock GUMSHOE using the rules from [The GUMSHOE S
 
 Video Walkthrough [Here](https://www.youtube.com/watch?v=hcl94LStQ8o).
 
-Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://docs.google.com/document/d/1qDgkgjx5paBQ5j9lUQ3dv4D45aXjI7P7XMHbbeI2SnA)).
+Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://github.com/AmmarNanjiani/Trail-of-Cthulhu-QuickShock-Hack)).
 
 ## Features
 * Character sheet which tracks ratings and pools for all abilities. 
