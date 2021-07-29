@@ -20,7 +20,17 @@
 
                 {{!-- Pillars of Sanity --}}
                 <section class="sheet-content" style="height: 150px">
+                    {{#ifEquals gameCreated "Trail of Cthulhu"}}
                     <h1>{{localize "qsgs.char-sheet.pillars"}}</h1>
+                    {{else ifEquals gameCreated "YKRPG - Paris"}}
+                    <h1>That Deuced Peculiar Business</h1>
+                    {{else ifEquals gameCreated "YKRPG - The Wars"}}
+                    <h1>That Damn Peculiar Thing</h1>
+                    {{else ifEquals gameCreated "YKRPG - Aftermath"}}
+                    <h1>Worst Memory</h1>
+                    {{else ifEquals gameCreated "YKRPG - This Is Normal Now"}}
+                    <h1>Freaking Weird Moment</h1>
+                    {{/ifEquals}}
                     {{editor content=data.pillars target="data.pillars" button=true owner=owner editable=editable}}
                 </section>
             </div>

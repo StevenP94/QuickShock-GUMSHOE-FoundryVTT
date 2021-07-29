@@ -17,8 +17,32 @@ async function loadHandleBarTemplates()
   return loadTemplates( templatePaths );
 }
 
+function registerSystemSettings() {
+  game.settings.register("qsgs", "chooseGame", {
+    config: true,
+    scope: "world",
+    name: "Game",
+    hint: "Choose which QuickShock game you are playing.",
+    type: String,
+    choices: {
+      "YKRPG - Paris": "YKRPG - Paris",
+      "YKRPG - The Wars": "YKRPG - The Wars",
+      "YKRPG - Aftermath": "YKRPG - Aftermath",
+      "YKRPG - This Is Normal Now": "YKRPG - This Is Normal Now",
+      "Trail of Cthulhu": "Trail of Cthulhu"
+    },
+    default: "YKRPG - Paris",
+    onChange: value => {
+      console.log(value);
+    }
+
+  });
+}
+
 Hooks.once("init", function() {
     console.log("quickshock-gumshoe | Initialising QuickShock GUMSHOE System");
+
+    registerSystemSettings();
 
     loadHandleBarTemplates();
 
@@ -34,11 +58,30 @@ Hooks.once("init", function() {
 
     Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
       return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
-  });
+    });
 });
 
 Hooks.on("createActor", async function(actor) {
-  const pack = game.packs.get("qsgs.tocgenabilities");
+
+  let optionsSettings = game.settings.get("qsgs", "chooseGame");
+  
+
+  let packname = "qsgs.parisgenabilities"
+  switch (optionsSettings) {
+    case "YKRPG - The Wars": 
+      packname = "qsgs.warsgenabilities";
+      break;
+    case "YKRPG - Aftermath":
+      packname = "qsgs.aftermathgenabilities";
+      break;
+    case "YKRPG - This Is Normal Now":
+      packname = "qsgs.normalgenabilities";
+      break;
+    case "Trail of Cthulhu":
+      packname = "qsgs.tocgenabilities";
+  }
+  const pack = game.packs.get(packname);
+
   const content = await pack.getDocuments().then(documents => {
     return documents.map(document => document.data);
   });

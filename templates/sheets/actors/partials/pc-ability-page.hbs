@@ -89,7 +89,17 @@
 
     <div class="tab" data-group="primary" data-tab="other">
         <div class="sheet-content" style="height: 150px">
+            {{#ifEquals gameCreated "Trail of Cthulhu"}}
             <h1>{{localize "qsgs.char-sheet.occupationalBenefits"}}</h1>
+            {{else ifEquals gameCreated "YKRPG - Paris"}}
+            <h1>Relationships</h1>
+            {{else ifEquals gameCreated "YKRPG - The Wars"}}
+            <h1>Civilian Occupation</h1>
+            {{else ifEquals gameCreated "YKRPG - Aftermath"}}
+            <h1>Parallel</h1>
+            {{else ifEquals gameCreated "YKRPG - This Is Normal Now"}}
+            <h1>Familiar Face</h1>
+            {{/ifEquals}}
             {{editor content=data.occupationalBenefits target="data.occupationalBenefits" button=true owner=owner editable=editable}}
         </div>
         <div class="sheet-content" style="height: 150px">

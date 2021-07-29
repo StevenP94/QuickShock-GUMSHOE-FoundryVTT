@@ -12,14 +12,34 @@
             <input name="data.drive" type="text" value="{{data.drive}}"></input>
         </div>
         <div>
+            {{#ifEquals gameCreated "Trail of Cthulhu"}}
             <b>{{localize "qsgs.char-sheet.occupation"}}</b>
+            {{else ifEquals gameCreated "YKRPG - Paris"}}
+            <b>Field</b>
+            {{else ifEquals gameCreated "YKRPG - The Wars"}}
+            <b>Connection</b>
+            {{else ifEquals gameCreated "YKRPG - Aftermath"}}
+            <b>{{localize "qsgs.char-sheet.occupation"}}</b>
+            {{/ifEquals}}
+            {{#ifEquals gameCreated "YKRPG - This Is Normal Now"}}
+            {{else}}
             <input name="data.occupation" type="text" value="{{data.occupation}}"></input>
+            {{/ifEquals}}
         </div>
         <div> <b>{{localize "qsgs.char-sheet.pushes"}}</b> <input name="data.push1" type="checkbox" {{ checked data.push1 }}/> <input name="data.push2" type="checkbox" {{ checked data.push2 }}/></div>                             
     </div>
     <div style="padding-left: 30px; max-width: 500px">
+        {{#ifEquals gameCreated "Trail of Cthulhu"}}
         <b>{{localize "qsgs.char-sheet.occupationalBenefits"}}</b>
+        {{else ifEquals gameCreated "YKRPG - Paris"}}
+        <b>Relationships</b>
+        {{else ifEquals gameCreated "YKRPG - The Wars"}}
+        <b>Civilian Occupation</b>
+        {{else ifEquals gameCreated "YKRPG - Aftermath"}}
+        <b>Parallel</b>
+        {{else ifEquals gameCreated "YKRPG - This Is Normal Now"}}
+        <b>Familiar Face</b>
+        {{/ifEquals}}
         {{{data.occupationalBenefits}}}
     </div>
-
 </section>

@@ -11,7 +11,6 @@ export default class QSGSCharSheet extends ActorSheet {
         });
     }
 
-
     itemContextMenu = [
         {
             name: "Edit",
@@ -88,8 +87,10 @@ export default class QSGSCharSheet extends ActorSheet {
 
     getData() {
         let sheetData = super.getData();
+        let gameCreated = game.settings.get("qsgs", "chooseGame");
+
         sheetData.data = sheetData.data.data;
-        
+        sheetData.gameCreated = gameCreated;
         sheetData.config = CONFIG.qsgs;
 
         sheetData.academic = sheetData.items.filter(function(item) {return item.type == "InvestigativeAbility" && item.data.type == "academic"}).sort((a, b) => a.name > b.name && 1 || -1);
@@ -112,7 +113,7 @@ export default class QSGSCharSheet extends ActorSheet {
         });
         sheetData.injuries = sheetData.items.filter(function(item) {return item.type == "Card" && (item.data.type == "injury" || item.data.type == "combo")});
         sheetData.shocks = sheetData.items.filter(function(item) {return item.type == "Card" && (item.data.type == "shock" || item.data.type == "combo")});
-
+        console.log(sheetData);
         return sheetData
     }
 

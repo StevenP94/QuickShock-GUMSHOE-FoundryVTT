@@ -15,7 +15,8 @@
             "equipment": "",
             "push1": false,
             "push2": false,
-            "hideZeroRated": false
+            "hideZeroRated": false,
+            "gameCreated": ""
         }
     },
     "Item":{
