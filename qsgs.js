@@ -23,7 +23,7 @@ Hooks.once("init", function() {
     loadHandleBarTemplates();
 
     CONFIG.qsgs= qsgs;
-    CONFIG.Item.entityClass = QSGSItem;
+    CONFIG.Item.documentClass = QSGSItem;
 
     Items.unregisterSheet("core", ItemSheet)
     Items.registerSheet("quickshock-gumshoe", QSGSItemSheet, { makeDefault: true});
@@ -39,10 +39,8 @@ Hooks.once("init", function() {
 
 Hooks.on("createActor", async function(actor) {
   const pack = game.packs.get("qsgs.tocgenabilities");
-  const content = await pack.getContent();
-  const created = await actor.createEmbeddedEntity("OwnedItem", content);
-
-  console.log(pack);
-  console.log(pack.metadata);
-  console.log(pack.defaultOptions);
+  const content = await pack.getDocuments().then(documents => {
+    return documents.map(document => document.data);
+  });
+  const created = await actor.createEmbeddedDocuments("Item", content);
 });
