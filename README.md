@@ -11,6 +11,9 @@ Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be fo
 * Track Injuries and Shocks on the character sheet.
 * Compendia for general and investigative abilities, as well as all of the QuickShock cards from the SRD.
 
+## Known Issues
+* Having multiple roll/spend dialog boxes will make it so the number buttons stop working. Make sure you only have one open at a time.
+
 ## Installation
 
 In Foundry VTT, on the Configuration and Setup's **Game Systems** sheet, click the **Install System** button at the bottom.
@@ -44,6 +47,8 @@ Cards can be added to PCs by simply dragging and dropping them from the Items di
 ## Creating Custom Abilities and Cards
 
 General Abilities, Investigative Abilities, and Cards are all **items**. When you create an item, you can choose the type, and fill out the data accordingly.
+
+
 ## Credits
 
 This work is based on the GUMSHOE SRD (found athttps://www.pelgranepress.com/index.php/the-gumshoe-system-reference-document/), a product of Pelgrane Press, developed, written, and edited by Robin D. Laws with additional material by Kenneth Hite, and licensed for our use under the Creative Commons Attribution 3.0 Unported license (http://creativecommons.org/licenses/by/3.0/).
