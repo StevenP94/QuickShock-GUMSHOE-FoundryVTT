@@ -13,6 +13,7 @@ Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be fo
 
 ## Known Issues
 * Having multiple roll/spend dialog boxes will make it so the number buttons stop working. Make sure you only have one open at a time.
+* Duplicating a character will add all of the general abilities for your chosen system again.
 
 ## Installation
 
