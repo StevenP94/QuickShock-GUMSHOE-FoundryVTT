@@ -4,6 +4,8 @@ Video Walkthrough [Here](https://www.youtube.com/watch?v=hcl94LStQ8o).
 
 Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://github.com/AmmarNanjiani/Trail-of-Cthulhu-QuickShock-Hack)).
 
+This repo comes as is. I haven't played this game or touched this repo in a long time. It was built for Foundry v9. It *might* work on newer versions but I can't promise anything.
+
 ## Features
 * Character sheet which tracks ratings and pools for all abilities. 
 * Spend points and roll from character sheet.
