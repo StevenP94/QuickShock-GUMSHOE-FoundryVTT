@@ -2,7 +2,7 @@ Foundry VTT System to run QuickShock GUMSHOE using the rules from [The GUMSHOE S
 
 Video Walkthrough [Here](https://www.youtube.com/watch?v=hcl94LStQ8o).
 
-Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://github.com/AmmarNanjiani/Trail-of-Cthulhu-QuickShock-Hack)).
+Supports all YKRPG books, and my own Trail of Cthulhu QuickShock Hack (can be found [here](https://github.com/ananjiani/Trail-of-Cthulhu-QuickShock-Hack)).
 
 This repo comes as is. I haven't played this game or touched this repo in a long time. It was built for Foundry v9. It *might* work on newer versions but I can't promise anything.
 
@@ -23,7 +23,7 @@ In Foundry VTT, on the Configuration and Setup's **Game Systems** sheet, click t
 
 Paste the following **Manifest URL** to install the game system and click **Install**:
 
->https://raw.githubusercontent.com/AmmarNanjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json
+>https://raw.githubusercontent.com/ananjiani/QuickShock-GUMSHOE-FoundryVTT/master/system.json
 
 ## Using Systems
 
