@@ -1,0 +1,48 @@
+{
+    "qsgs":{
+        "category": "Categoria",
+        "general-type": {
+            "presence": "Presence",
+            "focus": "Focus",
+            "physical": "Physical"
+        },
+        "investigative-type": {
+            "academic": "Accademiche",
+            "interpersonal": "Interpersonali",
+            "technical": "Tecniche"
+        },
+        "ability-attr": {
+            "hasrating": "Has Rating?",
+            "rating": "Rating",
+            "pool": "Pool"
+        },
+        "card": {
+            "type": {
+                "type": "Type",
+                "injury": "Injury",
+                "shock": "Shock",
+                "combo": "Combo"
+            },
+            "tags": "Tags",
+            "desc": "Description"
+        },
+        "char-sheet": {
+            "name": "Nome",
+            "drive": "Pulsione",
+            "occupation": "Occupation",
+            "occupationalBenefits": "Occupational Benefits",
+            "pillars": "Pillars of Sanity",
+            "background": "Background",
+            "equipment": "Equipaggiamento",
+            "injuries": "Ferite",
+            "shocks": "Traumi",
+            "invTitle": "Abilità Investigative",
+            "genTitle": "Abilità Generali",
+            "pushes": "Leve",
+            "abilities": "Abilità",
+            "other": "Altro",
+            "addInv": "Aggiungi Abilità Investigativa"
+        }
+
+    }
+}
