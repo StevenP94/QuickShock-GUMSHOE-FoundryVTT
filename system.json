@@ -17,77 +17,77 @@
             "name": "qscards",
             "label": "QuickShock Cards (SRD)",
             "path": "/packs/qscards_srd.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "tocgenabilities",
             "label": "Trail of Cthulhu General Abilities",
             "path": "/packs/tocgenabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "tocinvabilities",
             "label": "Trail of Cthulhu Investigative Abilities",
             "path": "/packs/tocinvabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "parisgenabilities",
             "label": "YKRPG Paris General Abilities",
             "path": "/packs/ykrpg/parisgenabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "parisinvabilities",
             "label": "YKRPG Paris Investigative Abilities",
             "path": "/packs/ykrpg/parisinvabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "warsgenabilities",
             "label": "YKRPG The Wars General Abilities",
             "path": "/packs/ykrpg/warsgenabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "warsinvabilities",
             "label": "YKRPG The Wars Investigative Abilities",
             "path": "/packs/ykrpg/warsinvabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "aftermathgenabilities",
             "label": "YKRPG Aftermath General Abilities",
             "path": "/packs/ykrpg/aftermathgenabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "aftermathinvabilities",
             "label": "YKRPG Aftermath Investigative Abilities",
             "path": "/packs/ykrpg/aftermathinvabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "normalgenabilities",
             "label": "YKRPG This Is Normal Now General Abilities",
             "path": "/packs/ykrpg/normalgenabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         },
         {
             "name": "normalinvabilities",
             "label": "YKRPG This Is Normal Now Investigative Abilities",
             "path": "/packs/ykrpg/normalinvabilities.db",
-            "entity": "Item"
+            "type": "Item"
 
         }
 
@@ -97,6 +97,11 @@
         "lang": "en",
         "name": "English",
         "path": "lang/en.json"
+        },
+        {
+        "lang": "it",
+        "name": "Italian",
+        "path": "lang/it.json"
         }
     ],
     "gridDistance": 5,
