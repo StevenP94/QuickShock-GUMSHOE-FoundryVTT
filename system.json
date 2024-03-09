@@ -1,11 +1,8 @@
 {
-    "name": "qsgs",
+    "id": "qsgs",
     "title": "QuickShock GUMSHOE",
     "description": "A system for playing QuickShock GUMSHOE",
-    "author": "Ammar Nanjiani",
     "version": 0.01,
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCore Version": "0.7.9",
     "esmodules": [
         "qsgs.js"
     ],
@@ -16,77 +13,77 @@
         {
             "name": "qscards",
             "label": "QuickShock Cards (SRD)",
-            "path": "/packs/qscards_srd.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "tocgenabilities",
             "label": "Trail of Cthulhu General Abilities",
-            "path": "/packs/tocgenabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "tocinvabilities",
             "label": "Trail of Cthulhu Investigative Abilities",
-            "path": "/packs/tocinvabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "parisgenabilities",
             "label": "YKRPG Paris General Abilities",
-            "path": "/packs/ykrpg/parisgenabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "parisinvabilities",
             "label": "YKRPG Paris Investigative Abilities",
-            "path": "/packs/ykrpg/parisinvabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "warsgenabilities",
             "label": "YKRPG The Wars General Abilities",
-            "path": "/packs/ykrpg/warsgenabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "warsinvabilities",
             "label": "YKRPG The Wars Investigative Abilities",
-            "path": "/packs/ykrpg/warsinvabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "aftermathgenabilities",
             "label": "YKRPG Aftermath General Abilities",
-            "path": "/packs/ykrpg/aftermathgenabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "aftermathinvabilities",
             "label": "YKRPG Aftermath Investigative Abilities",
-            "path": "/packs/ykrpg/aftermathinvabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "normalgenabilities",
             "label": "YKRPG This Is Normal Now General Abilities",
-            "path": "/packs/ykrpg/normalgenabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         },
         {
             "name": "normalinvabilities",
             "label": "YKRPG This Is Normal Now Investigative Abilities",
-            "path": "/packs/ykrpg/normalinvabilities.db",
+            "system": "qsgs",
             "type": "Item"
 
         }
